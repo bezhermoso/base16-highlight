@@ -1,0 +1,26 @@
+-- Name: Base16 Pop
+-- Author: Chris Kempson (http://chriskempson.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#d0d0d0" }
+Canvas = { Colour="#000000" }
+Number = { Colour="#f29333" }
+Escape = { Colour="#e0e0e0" , Italic=true}
+String = { Colour="#37b349" }
+BlockComment = { Colour="#505050" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d0d0d0" }
+LineNum      = { Color="#505050" }
+PreProcessor      = { Colour="#7a2d00" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#eb008a", Bold=true},
+  { Colour="#f8ca12"},
+  { Colour="#0e5a94"},
+  { Colour="#f8ca12"},
+  { Colour="#f8ca12" }
+}

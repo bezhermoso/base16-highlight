@@ -1,0 +1,26 @@
+-- Name: Base16 Google Light
+-- Author: Seth Wright (http://sethawright.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#373b41" }
+Canvas = { Colour="#ffffff" }
+Number = { Colour="#F96A38" }
+Escape = { Colour="#282a2e" , Italic=true}
+String = { Colour="#198844" }
+BlockComment = { Colour="#b4b7b4" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#373b41" }
+LineNum      = { Color="#b4b7b4" }
+PreProcessor      = { Colour="#3971ED" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#CC342B", Bold=true},
+  { Colour="#FBA922"},
+  { Colour="#3971ED"},
+  { Colour="#FBA922"},
+  { Colour="#FBA922" }
+}

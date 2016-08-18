@@ -1,0 +1,26 @@
+-- Name: Base16 Atelier Plateau
+-- Author: Bram de Haan (http://atelierbramdehaan.nl)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#8a8585" }
+Canvas = { Colour="#1b1818" }
+Number = { Colour="#b45a3c" }
+Escape = { Colour="#e7dfdf" , Italic=true}
+String = { Colour="#4b8b8b" }
+BlockComment = { Colour="#655d5d" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#8a8585" }
+LineNum      = { Color="#655d5d" }
+PreProcessor      = { Colour="#bd5187" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ca4949", Bold=true},
+  { Colour="#a06e3b"},
+  { Colour="#7272ca"},
+  { Colour="#a06e3b"},
+  { Colour="#a06e3b" }
+}

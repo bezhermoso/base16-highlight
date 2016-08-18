@@ -1,0 +1,26 @@
+-- Name: Base16 Google Dark
+-- Author: Seth Wright (http://sethawright.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#c5c8c6" }
+Canvas = { Colour="#1d1f21" }
+Number = { Colour="#F96A38" }
+Escape = { Colour="#e0e0e0" , Italic=true}
+String = { Colour="#198844" }
+BlockComment = { Colour="#969896" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#c5c8c6" }
+LineNum      = { Color="#969896" }
+PreProcessor      = { Colour="#3971ED" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#CC342B", Bold=true},
+  { Colour="#FBA922"},
+  { Colour="#3971ED"},
+  { Colour="#FBA922"},
+  { Colour="#FBA922" }
+}

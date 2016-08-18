@@ -1,0 +1,26 @@
+-- Name: Base16 Eighties
+-- Author: Chris Kempson (http://chriskempson.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#d3d0c8" }
+Canvas = { Colour="#2d2d2d" }
+Number = { Colour="#f99157" }
+Escape = { Colour="#e8e6df" , Italic=true}
+String = { Colour="#99cc99" }
+BlockComment = { Colour="#747369" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d3d0c8" }
+LineNum      = { Color="#747369" }
+PreProcessor      = { Colour="#d27b53" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f2777a", Bold=true},
+  { Colour="#ffcc66"},
+  { Colour="#6699cc"},
+  { Colour="#ffcc66"},
+  { Colour="#ffcc66" }
+}

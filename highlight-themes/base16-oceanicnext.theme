@@ -1,0 +1,26 @@
+-- Name: Base16 OceanicNext
+-- Author: https://github.com/voronianski/oceanic-next-color-scheme
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#C0C5CE" }
+Canvas = { Colour="#1B2B34" }
+Number = { Colour="#F99157" }
+Escape = { Colour="#CDD3DE" , Italic=true}
+String = { Colour="#99C794" }
+BlockComment = { Colour="#65737E" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#C0C5CE" }
+LineNum      = { Color="#65737E" }
+PreProcessor      = { Colour="#AB7967" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#EC5f67", Bold=true},
+  { Colour="#FAC863"},
+  { Colour="#6699CC"},
+  { Colour="#FAC863"},
+  { Colour="#FAC863" }
+}

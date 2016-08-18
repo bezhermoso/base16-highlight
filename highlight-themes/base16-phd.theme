@@ -1,0 +1,26 @@
+-- Name: Base16 PhD
+-- Author: Hennig Hasemann (http://leetless.de/vim.html)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#b8bbc2" }
+Canvas = { Colour="#061229" }
+Number = { Colour="#f0a000" }
+Escape = { Colour="#dbdde0" , Italic=true}
+String = { Colour="#99bf52" }
+BlockComment = { Colour="#717885" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#b8bbc2" }
+LineNum      = { Color="#717885" }
+PreProcessor      = { Colour="#b08060" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#d07346", Bold=true},
+  { Colour="#fbd461"},
+  { Colour="#5299bf"},
+  { Colour="#fbd461"},
+  { Colour="#fbd461" }
+}

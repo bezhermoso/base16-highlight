@@ -1,0 +1,26 @@
+-- Name: Base16 Railscasts
+-- Author: Ryan Bates (http://railscasts.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#e6e1dc" }
+Canvas = { Colour="#2b2b2b" }
+Number = { Colour="#cc7833" }
+Escape = { Colour="#f4f1ed" , Italic=true}
+String = { Colour="#a5c261" }
+BlockComment = { Colour="#5a647e" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#e6e1dc" }
+LineNum      = { Color="#5a647e" }
+PreProcessor      = { Colour="#bc9458" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#da4939", Bold=true},
+  { Colour="#ffc66d"},
+  { Colour="#6d9cbe"},
+  { Colour="#ffc66d"},
+  { Colour="#ffc66d" }
+}

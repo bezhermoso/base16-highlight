@@ -1,0 +1,26 @@
+-- Name: Base16 Mocha
+-- Author: Chris Kempson (http://chriskempson.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#d0c8c6" }
+Canvas = { Colour="#3B3228" }
+Number = { Colour="#d28b71" }
+Escape = { Colour="#e9e1dd" , Italic=true}
+String = { Colour="#beb55b" }
+BlockComment = { Colour="#7e705a" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d0c8c6" }
+LineNum      = { Color="#7e705a" }
+PreProcessor      = { Colour="#bb9584" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#cb6077", Bold=true},
+  { Colour="#f4bc87"},
+  { Colour="#8ab3b5"},
+  { Colour="#f4bc87"},
+  { Colour="#f4bc87" }
+}

@@ -1,0 +1,26 @@
+-- Name: Base16 3024
+-- Author: Jan T. Sott (http://github.com/idleberg)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#a5a2a2" }
+Canvas = { Colour="#090300" }
+Number = { Colour="#e8bbd0" }
+Escape = { Colour="#d6d5d4" , Italic=true}
+String = { Colour="#01a252" }
+BlockComment = { Colour="#5c5855" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#a5a2a2" }
+LineNum      = { Color="#5c5855" }
+PreProcessor      = { Colour="#cdab53" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#db2d20", Bold=true},
+  { Colour="#fded02"},
+  { Colour="#01a0e4"},
+  { Colour="#fded02"},
+  { Colour="#fded02" }
+}

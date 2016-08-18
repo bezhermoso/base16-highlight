@@ -1,0 +1,26 @@
+-- Name: Base16 Shapeshifter
+-- Author: Tyler Benziger (http://tybenz.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#102015" }
+Canvas = { Colour="#f9f9f9" }
+Number = { Colour="#e09448" }
+Escape = { Colour="#040404" , Italic=true}
+String = { Colour="#0ed839" }
+BlockComment = { Colour="#555555" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#102015" }
+LineNum      = { Color="#555555" }
+PreProcessor      = { Colour="#69542d" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#e92f2f", Bold=true},
+  { Colour="#dddd13"},
+  { Colour="#3b48e3"},
+  { Colour="#dddd13"},
+  { Colour="#dddd13" }
+}

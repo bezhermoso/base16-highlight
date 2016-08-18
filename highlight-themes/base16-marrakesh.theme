@@ -1,0 +1,26 @@
+-- Name: Base16 Marrakesh
+-- Author: Alexandre Gavioli (http://github.com/Alexx2/)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#948e48" }
+Canvas = { Colour="#201602" }
+Number = { Colour="#b36144" }
+Escape = { Colour="#ccc37a" , Italic=true}
+String = { Colour="#18974e" }
+BlockComment = { Colour="#6c6823" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#948e48" }
+LineNum      = { Color="#6c6823" }
+PreProcessor      = { Colour="#b3588e" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#c35359", Bold=true},
+  { Colour="#a88339"},
+  { Colour="#477ca1"},
+  { Colour="#a88339"},
+  { Colour="#a88339" }
+}

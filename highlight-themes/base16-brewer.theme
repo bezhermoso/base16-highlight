@@ -1,0 +1,26 @@
+-- Name: Base16 Brewer
+-- Author: Timothée Poisot (http://github.com/tpoisot)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#b7b8b9" }
+Canvas = { Colour="#0c0d0e" }
+Number = { Colour="#e6550d" }
+Escape = { Colour="#dadbdc" , Italic=true}
+String = { Colour="#31a354" }
+BlockComment = { Colour="#737475" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#b7b8b9" }
+LineNum      = { Color="#737475" }
+PreProcessor      = { Colour="#b15928" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#e31a1c", Bold=true},
+  { Colour="#dca060"},
+  { Colour="#3182bd"},
+  { Colour="#dca060"},
+  { Colour="#dca060" }
+}

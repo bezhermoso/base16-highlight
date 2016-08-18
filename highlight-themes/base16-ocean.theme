@@ -1,0 +1,26 @@
+-- Name: Base16 Ocean
+-- Author: Chris Kempson (http://chriskempson.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#c0c5ce" }
+Canvas = { Colour="#2b303b" }
+Number = { Colour="#d08770" }
+Escape = { Colour="#dfe1e8" , Italic=true}
+String = { Colour="#a3be8c" }
+BlockComment = { Colour="#65737e" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#c0c5ce" }
+LineNum      = { Color="#65737e" }
+PreProcessor      = { Colour="#ab7967" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#bf616a", Bold=true},
+  { Colour="#ebcb8b"},
+  { Colour="#8fa1b3"},
+  { Colour="#ebcb8b"},
+  { Colour="#ebcb8b" }
+}

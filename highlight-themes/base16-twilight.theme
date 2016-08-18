@@ -1,0 +1,26 @@
+-- Name: Base16 Twilight
+-- Author: David Hart (http://hart-dev.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#a7a7a7" }
+Canvas = { Colour="#1e1e1e" }
+Number = { Colour="#cda869" }
+Escape = { Colour="#c3c3c3" , Italic=true}
+String = { Colour="#8f9d6a" }
+BlockComment = { Colour="#5f5a60" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#a7a7a7" }
+LineNum      = { Color="#5f5a60" }
+PreProcessor      = { Colour="#9b703f" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#cf6a4c", Bold=true},
+  { Colour="#f9ee98"},
+  { Colour="#7587a6"},
+  { Colour="#f9ee98"},
+  { Colour="#f9ee98" }
+}

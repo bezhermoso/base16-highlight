@@ -1,0 +1,26 @@
+-- Name: Base16 Atelier Lakeside
+-- Author: Bram de Haan (http://atelierbramdehaan.nl)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#7ea2b4" }
+Canvas = { Colour="#161b1d" }
+Number = { Colour="#935c25" }
+Escape = { Colour="#c1e4f6" , Italic=true}
+String = { Colour="#568c3b" }
+BlockComment = { Colour="#5a7b8c" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#7ea2b4" }
+LineNum      = { Color="#5a7b8c" }
+PreProcessor      = { Colour="#b72dd2" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#d22d72", Bold=true},
+  { Colour="#8a8a0f"},
+  { Colour="#257fad"},
+  { Colour="#8a8a0f"},
+  { Colour="#8a8a0f" }
+}

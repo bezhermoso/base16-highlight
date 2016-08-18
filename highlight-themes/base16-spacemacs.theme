@@ -1,0 +1,26 @@
+-- Name: Base16 Spacemacs
+-- Author: Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#a3a3a3" }
+Canvas = { Colour="#1f2022" }
+Number = { Colour="#ffa500" }
+Escape = { Colour="#e8e8e8" , Italic=true}
+String = { Colour="#67b11d" }
+BlockComment = { Colour="#585858" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#a3a3a3" }
+LineNum      = { Color="#585858" }
+PreProcessor      = { Colour="#b03060" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f2241f", Bold=true},
+  { Colour="#b1951d"},
+  { Colour="#4f97d7"},
+  { Colour="#b1951d"},
+  { Colour="#b1951d" }
+}

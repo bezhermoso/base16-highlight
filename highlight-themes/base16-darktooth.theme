@@ -1,0 +1,26 @@
+-- Name: Base16 Darktooth
+-- Author: Jason Milkins (https://github.com/jasonm23)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#A89984" }
+Canvas = { Colour="#1D2021" }
+Number = { Colour="#FE8625" }
+Escape = { Colour="#D5C4A1" , Italic=true}
+String = { Colour="#95C085" }
+BlockComment = { Colour="#665C54" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#A89984" }
+LineNum      = { Color="#665C54" }
+PreProcessor      = { Colour="#A87322" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#FB543F", Bold=true},
+  { Colour="#FAC03B"},
+  { Colour="#0D6678"},
+  { Colour="#FAC03B"},
+  { Colour="#FAC03B" }
+}

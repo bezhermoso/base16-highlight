@@ -1,0 +1,26 @@
+-- Name: Base16 Harmonic16 Light
+-- Author: Jannik Siebert (https://github.com/janniks)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#405c79" }
+Canvas = { Colour="#f7f9fb" }
+Number = { Colour="#bfbf56" }
+Escape = { Colour="#223b54" , Italic=true}
+String = { Colour="#56bf8b" }
+BlockComment = { Colour="#aabcce" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#405c79" }
+LineNum      = { Color="#aabcce" }
+PreProcessor      = { Colour="#bf5656" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#bf8b56", Bold=true},
+  { Colour="#8bbf56"},
+  { Colour="#8b56bf"},
+  { Colour="#8bbf56"},
+  { Colour="#8bbf56" }
+}

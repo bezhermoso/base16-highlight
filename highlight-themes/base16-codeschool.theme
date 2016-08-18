@@ -1,0 +1,26 @@
+-- Name: Base16 Codeschool
+-- Author: brettof86
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#9ea7a6" }
+Canvas = { Colour="#232c31" }
+Number = { Colour="#43820d" }
+Escape = { Colour="#a7cfa3" , Italic=true}
+String = { Colour="#237986" }
+BlockComment = { Colour="#3f4944" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#9ea7a6" }
+LineNum      = { Color="#3f4944" }
+PreProcessor      = { Colour="#c98344" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#2a5491", Bold=true},
+  { Colour="#a03b1e"},
+  { Colour="#484d79"},
+  { Colour="#a03b1e"},
+  { Colour="#a03b1e" }
+}

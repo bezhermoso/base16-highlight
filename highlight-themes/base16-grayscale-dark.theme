@@ -1,0 +1,26 @@
+-- Name: Base16 Grayscale Dark
+-- Author: Alexandre Gavioli (https://github.com/Alexx2/)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#b9b9b9" }
+Canvas = { Colour="#101010" }
+Number = { Colour="#999999" }
+Escape = { Colour="#e3e3e3" , Italic=true}
+String = { Colour="#8e8e8e" }
+BlockComment = { Colour="#525252" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#b9b9b9" }
+LineNum      = { Color="#525252" }
+PreProcessor      = { Colour="#5e5e5e" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#7c7c7c", Bold=true},
+  { Colour="#a0a0a0"},
+  { Colour="#686868"},
+  { Colour="#a0a0a0"},
+  { Colour="#a0a0a0" }
+}

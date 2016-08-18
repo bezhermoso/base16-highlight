@@ -1,0 +1,26 @@
+-- Name: Base16 Atelier Sulphurpool
+-- Author: Bram de Haan (http://atelierbramdehaan.nl)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#979db4" }
+Canvas = { Colour="#202746" }
+Number = { Colour="#c76b29" }
+Escape = { Colour="#dfe2f1" , Italic=true}
+String = { Colour="#ac9739" }
+BlockComment = { Colour="#6b7394" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#979db4" }
+LineNum      = { Color="#6b7394" }
+PreProcessor      = { Colour="#9c637a" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#c94922", Bold=true},
+  { Colour="#c08b30"},
+  { Colour="#3d8fd1"},
+  { Colour="#c08b30"},
+  { Colour="#c08b30" }
+}

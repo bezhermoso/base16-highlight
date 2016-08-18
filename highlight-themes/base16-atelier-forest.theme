@@ -1,0 +1,26 @@
+-- Name: Base16 Atelier Forest
+-- Author: Bram de Haan (http://atelierbramdehaan.nl)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#a8a19f" }
+Canvas = { Colour="#1b1918" }
+Number = { Colour="#df5320" }
+Escape = { Colour="#e6e2e0" , Italic=true}
+String = { Colour="#7b9726" }
+BlockComment = { Colour="#766e6b" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#a8a19f" }
+LineNum      = { Color="#766e6b" }
+PreProcessor      = { Colour="#c33ff3" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f22c40", Bold=true},
+  { Colour="#c38418"},
+  { Colour="#407ee7"},
+  { Colour="#c38418"},
+  { Colour="#c38418" }
+}

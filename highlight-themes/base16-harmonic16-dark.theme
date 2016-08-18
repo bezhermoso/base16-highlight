@@ -1,0 +1,26 @@
+-- Name: Base16 Harmonic16 Dark
+-- Author: Jannik Siebert (https://github.com/janniks)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#cbd6e2" }
+Canvas = { Colour="#0b1c2c" }
+Number = { Colour="#bfbf56" }
+Escape = { Colour="#e5ebf1" , Italic=true}
+String = { Colour="#56bf8b" }
+BlockComment = { Colour="#627e99" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#cbd6e2" }
+LineNum      = { Color="#627e99" }
+PreProcessor      = { Colour="#bf5656" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#bf8b56", Bold=true},
+  { Colour="#8bbf56"},
+  { Colour="#8b56bf"},
+  { Colour="#8bbf56"},
+  { Colour="#8bbf56" }
+}

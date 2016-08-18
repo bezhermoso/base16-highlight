@@ -1,0 +1,26 @@
+-- Name: Base16 Atelier Cave
+-- Author: Bram de Haan (http://atelierbramdehaan.nl)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#8b8792" }
+Canvas = { Colour="#19171c" }
+Number = { Colour="#aa573c" }
+Escape = { Colour="#e2dfe7" , Italic=true}
+String = { Colour="#2a9292" }
+BlockComment = { Colour="#655f6d" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#8b8792" }
+LineNum      = { Color="#655f6d" }
+PreProcessor      = { Colour="#bf40bf" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#be4678", Bold=true},
+  { Colour="#a06e3b"},
+  { Colour="#576ddb"},
+  { Colour="#a06e3b"},
+  { Colour="#a06e3b" }
+}

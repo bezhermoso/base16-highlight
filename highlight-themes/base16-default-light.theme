@@ -1,0 +1,26 @@
+-- Name: Base16 Default Light
+-- Author: Chris Kempson (http://chriskempson.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#383838" }
+Canvas = { Colour="#f8f8f8" }
+Number = { Colour="#dc9656" }
+Escape = { Colour="#282828" , Italic=true}
+String = { Colour="#a1b56c" }
+BlockComment = { Colour="#b8b8b8" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#383838" }
+LineNum      = { Color="#b8b8b8" }
+PreProcessor      = { Colour="#a16946" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ab4642", Bold=true},
+  { Colour="#f7ca88"},
+  { Colour="#7cafc2"},
+  { Colour="#f7ca88"},
+  { Colour="#f7ca88" }
+}

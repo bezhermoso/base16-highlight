@@ -1,0 +1,26 @@
+-- Name: Base16 Embers
+-- Author: Jannik Siebert (https://github.com/janniks)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#A39A90" }
+Canvas = { Colour="#16130F" }
+Number = { Colour="#828257" }
+Escape = { Colour="#BEB6AE" , Italic=true}
+String = { Colour="#57826D" }
+BlockComment = { Colour="#5A5047" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#A39A90" }
+LineNum      = { Color="#5A5047" }
+PreProcessor      = { Colour="#825757" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#826D57", Bold=true},
+  { Colour="#6D8257"},
+  { Colour="#6D5782"},
+  { Colour="#6D8257"},
+  { Colour="#6D8257" }
+}

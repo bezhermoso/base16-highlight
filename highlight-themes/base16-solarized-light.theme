@@ -1,0 +1,26 @@
+-- Name: Base16 Solarized Light
+-- Author: Ethan Schoonover (http://ethanschoonover.com/solarized)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#586e75" }
+Canvas = { Colour="#fdf6e3" }
+Number = { Colour="#cb4b16" }
+Escape = { Colour="#073642" , Italic=true}
+String = { Colour="#859900" }
+BlockComment = { Colour="#839496" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#586e75" }
+LineNum      = { Color="#839496" }
+PreProcessor      = { Colour="#d33682" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#dc322f", Bold=true},
+  { Colour="#b58900"},
+  { Colour="#268bd2"},
+  { Colour="#b58900"},
+  { Colour="#b58900" }
+}

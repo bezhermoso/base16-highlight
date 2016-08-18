@@ -1,0 +1,26 @@
+-- Name: Base16 Solar Flare
+-- Author: Chuck Harmston (https://chuck.harmston.ch)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#A6AFB8" }
+Canvas = { Colour="#18262F" }
+Number = { Colour="#E66B2B" }
+Escape = { Colour="#E8E9ED" , Italic=true}
+String = { Colour="#7CC844" }
+BlockComment = { Colour="#667581" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#A6AFB8" }
+LineNum      = { Color="#667581" }
+PreProcessor      = { Colour="#D73C9A" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#EF5253", Bold=true},
+  { Colour="#E4B51C"},
+  { Colour="#33B5E1"},
+  { Colour="#E4B51C"},
+  { Colour="#E4B51C" }
+}

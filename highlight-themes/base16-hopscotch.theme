@@ -1,0 +1,26 @@
+-- Name: Base16 Hopscotch
+-- Author: Jan T. Sott
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#b9b5b8" }
+Canvas = { Colour="#322931" }
+Number = { Colour="#fd8b19" }
+Escape = { Colour="#d5d3d5" , Italic=true}
+String = { Colour="#8fc13e" }
+BlockComment = { Colour="#797379" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#b9b5b8" }
+LineNum      = { Color="#797379" }
+PreProcessor      = { Colour="#b33508" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#dd464c", Bold=true},
+  { Colour="#fdcc59"},
+  { Colour="#1290bf"},
+  { Colour="#fdcc59"},
+  { Colour="#fdcc59" }
+}

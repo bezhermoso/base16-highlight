@@ -1,0 +1,26 @@
+-- Name: Base16 Isotope
+-- Author: Jan T. Sott
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#d0d0d0" }
+Canvas = { Colour="#000000" }
+Number = { Colour="#ff9900" }
+Escape = { Colour="#e0e0e0" , Italic=true}
+String = { Colour="#33ff00" }
+BlockComment = { Colour="#808080" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d0d0d0" }
+LineNum      = { Color="#808080" }
+PreProcessor      = { Colour="#3300ff" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff0000", Bold=true},
+  { Colour="#ff0099"},
+  { Colour="#0066ff"},
+  { Colour="#ff0099"},
+  { Colour="#ff0099" }
+}

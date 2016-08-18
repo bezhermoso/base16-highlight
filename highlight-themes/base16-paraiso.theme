@@ -1,0 +1,26 @@
+-- Name: Base16 Paraiso
+-- Author: Jan T. Sott
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#a39e9b" }
+Canvas = { Colour="#2f1e2e" }
+Number = { Colour="#f99b15" }
+Escape = { Colour="#b9b6b0" , Italic=true}
+String = { Colour="#48b685" }
+BlockComment = { Colour="#776e71" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#a39e9b" }
+LineNum      = { Color="#776e71" }
+PreProcessor      = { Colour="#e96ba8" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ef6155", Bold=true},
+  { Colour="#fec418"},
+  { Colour="#06b6ef"},
+  { Colour="#fec418"},
+  { Colour="#fec418" }
+}

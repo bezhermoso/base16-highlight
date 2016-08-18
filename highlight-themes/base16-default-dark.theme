@@ -1,0 +1,26 @@
+-- Name: Base16 Default Dark
+-- Author: Chris Kempson (http://chriskempson.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#d8d8d8" }
+Canvas = { Colour="#181818" }
+Number = { Colour="#dc9656" }
+Escape = { Colour="#e8e8e8" , Italic=true}
+String = { Colour="#a1b56c" }
+BlockComment = { Colour="#585858" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d8d8d8" }
+LineNum      = { Color="#585858" }
+PreProcessor      = { Colour="#a16946" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ab4642", Bold=true},
+  { Colour="#f7ca88"},
+  { Colour="#7cafc2"},
+  { Colour="#f7ca88"},
+  { Colour="#f7ca88" }
+}

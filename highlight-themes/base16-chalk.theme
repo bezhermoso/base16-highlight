@@ -1,0 +1,26 @@
+-- Name: Base16 Chalk
+-- Author: Chris Kempson (http://chriskempson.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#d0d0d0" }
+Canvas = { Colour="#151515" }
+Number = { Colour="#eda987" }
+Escape = { Colour="#e0e0e0" , Italic=true}
+String = { Colour="#acc267" }
+BlockComment = { Colour="#505050" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d0d0d0" }
+LineNum      = { Color="#505050" }
+PreProcessor      = { Colour="#deaf8f" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#fb9fb1", Bold=true},
+  { Colour="#ddb26f"},
+  { Colour="#6fc2ef"},
+  { Colour="#ddb26f"},
+  { Colour="#ddb26f" }
+}

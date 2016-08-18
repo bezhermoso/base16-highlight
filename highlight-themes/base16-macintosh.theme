@@ -1,0 +1,26 @@
+-- Name: Base16 Macintosh
+-- Author: Rebecca Bettencourt (http://www.kreativekorp.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#c0c0c0" }
+Canvas = { Colour="#000000" }
+Number = { Colour="#ff6403" }
+Escape = { Colour="#c0c0c0" , Italic=true}
+String = { Colour="#1fb714" }
+BlockComment = { Colour="#808080" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#c0c0c0" }
+LineNum      = { Color="#808080" }
+PreProcessor      = { Colour="#90713a" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#dd0907", Bold=true},
+  { Colour="#fbf305"},
+  { Colour="#0000d3"},
+  { Colour="#fbf305"},
+  { Colour="#fbf305" }
+}

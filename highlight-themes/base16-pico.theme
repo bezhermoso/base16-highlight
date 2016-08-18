@@ -1,0 +1,26 @@
+-- Name: Base16 Pico
+-- Author: PICO-8 (http://www.lexaloffle.com/pico-8.php)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#5f574f" }
+Canvas = { Colour="#000000" }
+Number = { Colour="#ffa300" }
+Escape = { Colour="#c2c3c7" , Italic=true}
+String = { Colour="#00e756" }
+BlockComment = { Colour="#008751" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#5f574f" }
+LineNum      = { Color="#008751" }
+PreProcessor      = { Colour="#ffccaa" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff004d", Bold=true},
+  { Colour="#fff024"},
+  { Colour="#83769c"},
+  { Colour="#fff024"},
+  { Colour="#fff024" }
+}

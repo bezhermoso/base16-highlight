@@ -1,0 +1,26 @@
+-- Name: Base16 Tomorrow
+-- Author: Chris Kempson (http://chriskempson.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#4d4d4c" }
+Canvas = { Colour="#ffffff" }
+Number = { Colour="#f5871f" }
+Escape = { Colour="#282a2e" , Italic=true}
+String = { Colour="#718c00" }
+BlockComment = { Colour="#8e908c" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#4d4d4c" }
+LineNum      = { Color="#8e908c" }
+PreProcessor      = { Colour="#a3685a" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#c82829", Bold=true},
+  { Colour="#eab700"},
+  { Colour="#4271ae"},
+  { Colour="#eab700"},
+  { Colour="#eab700" }
+}

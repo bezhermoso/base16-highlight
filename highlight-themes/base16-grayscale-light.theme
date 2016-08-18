@@ -1,0 +1,26 @@
+-- Name: Base16 Grayscale Light
+-- Author: Alexandre Gavioli (https://github.com/Alexx2/)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#464646" }
+Canvas = { Colour="#f7f7f7" }
+Number = { Colour="#999999" }
+Escape = { Colour="#252525" , Italic=true}
+String = { Colour="#8e8e8e" }
+BlockComment = { Colour="#ababab" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#464646" }
+LineNum      = { Color="#ababab" }
+PreProcessor      = { Colour="#5e5e5e" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#7c7c7c", Bold=true},
+  { Colour="#a0a0a0"},
+  { Colour="#686868"},
+  { Colour="#a0a0a0"},
+  { Colour="#a0a0a0" }
+}

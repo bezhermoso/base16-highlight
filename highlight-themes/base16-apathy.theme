@@ -1,0 +1,26 @@
+-- Name: Base16 Apathy
+-- Author: Jannik Siebert (https://github.com/janniks)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 "
+
+Default = { Colour = "#81B5AC" }
+Canvas = { Colour="#031A16" }
+Number = { Colour="#3E7996" }
+Escape = { Colour="#A7CEC8" , Italic=true}
+String = { Colour="#883E96" }
+BlockComment = { Colour="#2B685E" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#81B5AC" }
+LineNum      = { Color="#2B685E" }
+PreProcessor      = { Colour="#3E965B" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#3E9688", Bold=true},
+  { Colour="#3E4C96"},
+  { Colour="#96883E"},
+  { Colour="#3E4C96"},
+  { Colour="#3E4C96" }
+}
