@@ -1,0 +1,26 @@
+-- Name: Base16 Brogrammer
+-- Author: Vik Ramanujam (http://github.com/piggyslasher)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Brogrammer"
+
+Default = { Colour = "#4e5ab7" }
+Canvas = { Colour="#1f1f1f" }
+Number = { Colour="#de352e" }
+Escape = { Colour="#1081d6" , Italic=true}
+String = { Colour="#f3bd09" }
+BlockComment = { Colour="#ecba0f" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#4e5ab7" }
+LineNum      = { Colour="#ecba0f" }
+PreProcessor      = { Colour="#ffffff" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#d6dbe5", Bold=true},
+  { Colour="#1dd361"},
+  { Colour="#5350b9"},
+  { Colour="#1dd361"},
+  { Colour="#1dd361" }
+}

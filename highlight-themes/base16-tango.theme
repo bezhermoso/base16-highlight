@@ -1,0 +1,26 @@
+-- Name: Base16 Tango
+-- Author: @Schnouki, based on the Tango Desktop Project
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Tango"
+
+Default = { Colour = "#d3d7cf" }
+Canvas = { Colour="#2e3436" }
+Number = { Colour="#ef2929" }
+Escape = { Colour="#ad7fa8" , Italic=true}
+String = { Colour="#4e9a06" }
+BlockComment = { Colour="#555753" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d3d7cf" }
+LineNum      = { Colour="#555753" }
+PreProcessor      = { Colour="#34e2e2" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#cc0000", Bold=true},
+  { Colour="#c4a000"},
+  { Colour="#3465a4"},
+  { Colour="#c4a000"},
+  { Colour="#c4a000" }
+}

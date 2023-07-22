@@ -1,0 +1,26 @@
+-- Name: Base16 iA Light
+-- Author: iA Inc. (modified by aramisgithub)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 iA Light"
+
+Default = { Colour = "#181818" }
+Canvas = { Colour="#f6f6f6" }
+Number = { Colour="#c43e18" }
+Escape = { Colour="#e8e8e8" , Italic=true}
+String = { Colour="#38781c" }
+BlockComment = { Colour="#898989" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#181818" }
+LineNum      = { Colour="#898989" }
+PreProcessor      = { Colour="#8b6c37" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#9c5a02", Bold=true},
+  { Colour="#c48218"},
+  { Colour="#48bac2"},
+  { Colour="#c48218"},
+  { Colour="#c48218" }
+}

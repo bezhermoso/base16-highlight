@@ -2,7 +2,7 @@
 -- Author: Wimer Hazenberg (http://www.monokai.nl)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Monokai"
 
 Default = { Colour = "#f8f8f2" }
 Canvas = { Colour="#272822" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#75715e" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#f8f8f2" }
-LineNum      = { Color="#75715e" }
+LineNum      = { Colour="#75715e" }
 PreProcessor      = { Colour="#cc6633" }
 Interpolation  = Escape
 

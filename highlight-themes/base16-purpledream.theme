@@ -1,0 +1,26 @@
+-- Name: Base16 Purpledream
+-- Author: malet
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Purpledream"
+
+Default = { Colour = "#ddd0dd" }
+Canvas = { Colour="#100510" }
+Number = { Colour="#ccae14" }
+Escape = { Colour="#eee0ee" , Italic=true}
+String = { Colour="#14cc64" }
+BlockComment = { Colour="#605060" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#ddd0dd" }
+LineNum      = { Colour="#605060" }
+PreProcessor      = { Colour="#6a2a3c" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff1d0d", Bold=true},
+  { Colour="#f000a0"},
+  { Colour="#00a0f0"},
+  { Colour="#f000a0"},
+  { Colour="#f000a0" }
+}

@@ -2,7 +2,7 @@
 -- Author: Alexandre Gavioli (http://github.com/Alexx2/)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Marrakesh"
 
 Default = { Colour = "#948e48" }
 Canvas = { Colour="#201602" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#6c6823" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#948e48" }
-LineNum      = { Color="#6c6823" }
+LineNum      = { Colour="#6c6823" }
 PreProcessor      = { Colour="#b3588e" }
 Interpolation  = Escape
 

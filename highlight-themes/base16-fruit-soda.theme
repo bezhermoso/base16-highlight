@@ -1,0 +1,26 @@
+-- Name: Base16 Fruit Soda
+-- Author: jozip
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Fruit Soda"
+
+Default = { Colour = "#515151" }
+Canvas = { Colour="#f1ecf1" }
+Number = { Colour="#fe6d08" }
+Escape = { Colour="#474545" , Italic=true}
+String = { Colour="#47f74c" }
+BlockComment = { Colour="#b5b4b6" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#515151" }
+LineNum      = { Colour="#b5b4b6" }
+PreProcessor      = { Colour="#b16f40" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#fe3e31", Bold=true},
+  { Colour="#f7e203"},
+  { Colour="#2931df"},
+  { Colour="#f7e203"},
+  { Colour="#f7e203" }
+}

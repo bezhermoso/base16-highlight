@@ -1,0 +1,26 @@
+-- Name: Base16 IR Black
+-- Author: Timothée Poisot (http://timotheepoisot.fr)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 IR Black"
+
+Default = { Colour = "#b5b3aa" }
+Canvas = { Colour="#000000" }
+Number = { Colour="#e9c062" }
+Escape = { Colour="#d9d7cc" , Italic=true}
+String = { Colour="#a8ff60" }
+BlockComment = { Colour="#6c6c66" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#b5b3aa" }
+LineNum      = { Colour="#6c6c66" }
+PreProcessor      = { Colour="#b18a3d" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff6c60", Bold=true},
+  { Colour="#ffffb6"},
+  { Colour="#96cbfe"},
+  { Colour="#ffffb6"},
+  { Colour="#ffffb6" }
+}

@@ -1,0 +1,26 @@
+-- Name: Base16 Unikitty Reversible
+-- Author: Josh W Lewis (@joshwlewis)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Unikitty Reversible"
+
+Default = { Colour = "#c3c2c4" }
+Canvas = { Colour="#2e2a31" }
+Number = { Colour="#d65407" }
+Escape = { Colour="#e1e0e1" , Italic=true}
+String = { Colour="#17ad98" }
+BlockComment = { Colour="#878589" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#c3c2c4" }
+LineNum      = { Colour="#878589" }
+PreProcessor      = { Colour="#d41acd" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#d8137f", Bold=true},
+  { Colour="#dc8a0e"},
+  { Colour="#7864fa"},
+  { Colour="#dc8a0e"},
+  { Colour="#dc8a0e" }
+}

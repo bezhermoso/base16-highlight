@@ -1,0 +1,26 @@
+-- Name: Base16 Zenburn
+-- Author: elnawe
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Zenburn"
+
+Default = { Colour = "#dcdccc" }
+Canvas = { Colour="#383838" }
+Number = { Colour="#dfaf8f" }
+Escape = { Colour="#c0c0c0" , Italic=true}
+String = { Colour="#5f7f5f" }
+BlockComment = { Colour="#6f6f6f" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#dcdccc" }
+LineNum      = { Colour="#6f6f6f" }
+PreProcessor      = { Colour="#000000" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#dca3a3", Bold=true},
+  { Colour="#e0cf9f"},
+  { Colour="#7cb8bb"},
+  { Colour="#e0cf9f"},
+  { Colour="#e0cf9f" }
+}

@@ -1,0 +1,26 @@
+-- Name: Base16 pinky
+-- Author: Benjamin (https://github.com/b3nj5m1n)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 pinky"
+
+Default = { Colour = "#f5f5f5" }
+Canvas = { Colour="#171517" }
+Number = { Colour="#00ff66" }
+Escape = { Colour="#ffffff" , Italic=true}
+String = { Colour="#ff0066" }
+BlockComment = { Colour="#383338" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#f5f5f5" }
+LineNum      = { Colour="#383338" }
+PreProcessor      = { Colour="#df206c" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ffa600", Bold=true},
+  { Colour="#20df6c"},
+  { Colour="#00ffff"},
+  { Colour="#20df6c"},
+  { Colour="#20df6c" }
+}

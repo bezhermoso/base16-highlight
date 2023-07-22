@@ -1,0 +1,26 @@
+-- Name: Base16 Equilibrium Dark
+-- Author: Carlo Abelli
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Equilibrium Dark"
+
+Default = { Colour = "#afaba2" }
+Canvas = { Colour="#0c1118" }
+Number = { Colour="#df5923" }
+Escape = { Colour="#cac6bd" , Italic=true}
+String = { Colour="#7f8b00" }
+BlockComment = { Colour="#7b776e" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#afaba2" }
+LineNum      = { Colour="#7b776e" }
+PreProcessor      = { Colour="#e3488e" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f04339", Bold=true},
+  { Colour="#bb8801"},
+  { Colour="#008dd1"},
+  { Colour="#bb8801"},
+  { Colour="#bb8801" }
+}

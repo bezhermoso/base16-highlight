@@ -1,0 +1,26 @@
+-- Name: Base16 Summerfruit Light
+-- Author: Christopher Corley (http://christop.club/)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Summerfruit Light"
+
+Default = { Colour = "#101010" }
+Canvas = { Colour="#ffffff" }
+Number = { Colour="#fd8900" }
+Escape = { Colour="#151515" , Italic=true}
+String = { Colour="#00c918" }
+BlockComment = { Colour="#b0b0b0" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#101010" }
+LineNum      = { Colour="#b0b0b0" }
+PreProcessor      = { Colour="#cc6633" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff0086", Bold=true},
+  { Colour="#aba800"},
+  { Colour="#3777e6"},
+  { Colour="#aba800"},
+  { Colour="#aba800" }
+}

@@ -1,0 +1,26 @@
+-- Name: Base16 dirtysea
+-- Author: Kahlil (Kal) Hodgson
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 dirtysea"
+
+Default = { Colour = "#000000" }
+Canvas = { Colour="#e0e0e0" }
+Number = { Colour="#006565" }
+Escape = { Colour="#f8f8f8" , Italic=true}
+String = { Colour="#730073" }
+BlockComment = { Colour="#707070" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#000000" }
+LineNum      = { Colour="#707070" }
+PreProcessor      = { Colour="#755b00" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#840000", Bold=true},
+  { Colour="#755b00"},
+  { Colour="#007300"},
+  { Colour="#755b00"},
+  { Colour="#755b00" }
+}

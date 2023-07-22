@@ -1,0 +1,26 @@
+-- Name: Base16 Horizon Dark
+-- Author: Michaël Ball (http://github.com/michael-ball/)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Horizon Dark"
+
+Default = { Colour = "#cbced0" }
+Canvas = { Colour="#1c1e26" }
+Number = { Colour="#e58d7d" }
+Escape = { Colour="#dcdfe4" , Italic=true}
+String = { Colour="#efaf8e" }
+BlockComment = { Colour="#6f6f70" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#cbced0" }
+LineNum      = { Colour="#6f6f70" }
+PreProcessor      = { Colour="#e4a382" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#e93c58", Bold=true},
+  { Colour="#efb993"},
+  { Colour="#df5273"},
+  { Colour="#efb993"},
+  { Colour="#efb993" }
+}

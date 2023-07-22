@@ -1,0 +1,26 @@
+-- Name: Base16 Edge Dark
+-- Author: cjayross (https://github.com/cjayross)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Edge Dark"
+
+Default = { Colour = "#b7bec9" }
+Canvas = { Colour="#262729" }
+Number = { Colour="#e77171" }
+Escape = { Colour="#d390e7" , Italic=true}
+String = { Colour="#a1bf78" }
+BlockComment = { Colour="#3e4249" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#b7bec9" }
+LineNum      = { Colour="#3e4249" }
+PreProcessor      = { Colour="#5ebaa5" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#e77171", Bold=true},
+  { Colour="#dbb774"},
+  { Colour="#73b3e7"},
+  { Colour="#dbb774"},
+  { Colour="#dbb774" }
+}

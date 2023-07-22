@@ -1,0 +1,26 @@
+-- Name: Base16 Blueish
+-- Author: Ben Mayoras
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Blueish"
+
+Default = { Colour = "#c8e1f8" }
+Canvas = { Colour="#182430" }
+Number = { Colour="#f6a85c" }
+Escape = { Colour="#ddeaf6" , Italic=true}
+String = { Colour="#c3e88d" }
+BlockComment = { Colour="#616d78" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#c8e1f8" }
+LineNum      = { Colour="#616d78" }
+PreProcessor      = { Colour="#bbd2e8" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#4ce587", Bold=true},
+  { Colour="#82aaff"},
+  { Colour="#82aaff"},
+  { Colour="#82aaff"},
+  { Colour="#82aaff" }
+}

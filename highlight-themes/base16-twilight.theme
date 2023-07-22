@@ -1,8 +1,8 @@
 -- Name: Base16 Twilight
--- Author: David Hart (http://hart-dev.com)
+-- Author: David Hart (https://github.com/hartbit)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Twilight"
 
 Default = { Colour = "#a7a7a7" }
 Canvas = { Colour="#1e1e1e" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#5f5a60" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#a7a7a7" }
-LineNum      = { Color="#5f5a60" }
+LineNum      = { Colour="#5f5a60" }
 PreProcessor      = { Colour="#9b703f" }
 Interpolation  = Escape
 

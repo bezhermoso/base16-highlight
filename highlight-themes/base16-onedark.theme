@@ -1,0 +1,26 @@
+-- Name: Base16 OneDark
+-- Author: Lalit Magant (http://github.com/tilal6991)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 OneDark"
+
+Default = { Colour = "#abb2bf" }
+Canvas = { Colour="#282c34" }
+Number = { Colour="#d19a66" }
+Escape = { Colour="#b6bdca" , Italic=true}
+String = { Colour="#98c379" }
+BlockComment = { Colour="#545862" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#abb2bf" }
+LineNum      = { Colour="#545862" }
+PreProcessor      = { Colour="#be5046" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#e06c75", Bold=true},
+  { Colour="#e5c07b"},
+  { Colour="#61afef"},
+  { Colour="#e5c07b"},
+  { Colour="#e5c07b" }
+}

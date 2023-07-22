@@ -1,0 +1,26 @@
+-- Name: Base16 Github
+-- Author: Defman21
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Github"
+
+Default = { Colour = "#333333" }
+Canvas = { Colour="#ffffff" }
+Number = { Colour="#0086b3" }
+Escape = { Colour="#ffffff" , Italic=true}
+String = { Colour="#183691" }
+BlockComment = { Colour="#969896" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#333333" }
+LineNum      = { Colour="#969896" }
+PreProcessor      = { Colour="#333333" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ed6a43", Bold=true},
+  { Colour="#795da3"},
+  { Colour="#795da3"},
+  { Colour="#795da3"},
+  { Colour="#795da3" }
+}

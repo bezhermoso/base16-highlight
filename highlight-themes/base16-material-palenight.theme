@@ -1,0 +1,26 @@
+-- Name: Base16 Material Palenight
+-- Author: Nate Peterson
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Material Palenight"
+
+Default = { Colour = "#959dcb" }
+Canvas = { Colour="#292d3e" }
+Number = { Colour="#f78c6c" }
+Escape = { Colour="#959dcb" , Italic=true}
+String = { Colour="#c3e88d" }
+BlockComment = { Colour="#676e95" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#959dcb" }
+LineNum      = { Colour="#676e95" }
+PreProcessor      = { Colour="#ff5370" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f07178", Bold=true},
+  { Colour="#ffcb6b"},
+  { Colour="#82aaff"},
+  { Colour="#ffcb6b"},
+  { Colour="#ffcb6b" }
+}

@@ -2,7 +2,7 @@
 -- Author: Jan T. Sott (http://github.com/idleberg)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 3024"
 
 Default = { Colour = "#a5a2a2" }
 Canvas = { Colour="#090300" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#5c5855" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#a5a2a2" }
-LineNum      = { Color="#5c5855" }
+LineNum      = { Colour="#5c5855" }
 PreProcessor      = { Colour="#cdab53" }
 Interpolation  = Escape
 

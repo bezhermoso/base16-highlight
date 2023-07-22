@@ -1,0 +1,26 @@
+-- Name: Base16 lime
+-- Author: limelier
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 lime"
+
+Default = { Colour = "#818175" }
+Canvas = { Colour="#1a1a2f" }
+Number = { Colour="#ff773a" }
+Escape = { Colour="#fff2d1" , Italic=true}
+String = { Colour="#8cd97c" }
+BlockComment = { Colour="#313140" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#818175" }
+LineNum      = { Colour="#313140" }
+PreProcessor      = { Colour="#b4d97c" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff662a", Bold=true},
+  { Colour="#ffd15e"},
+  { Colour="#2b926f"},
+  { Colour="#ffd15e"},
+  { Colour="#ffd15e" }
+}

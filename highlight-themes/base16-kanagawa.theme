@@ -1,0 +1,26 @@
+-- Name: Base16 Kanagawa
+-- Author: Tommaso Laurenzi (https://github.com/rebelot)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Kanagawa"
+
+Default = { Colour = "#dcd7ba" }
+Canvas = { Colour="#1f1f28" }
+Number = { Colour="#ffa066" }
+Escape = { Colour="#c8c093" , Italic=true}
+String = { Colour="#76946a" }
+BlockComment = { Colour="#54546d" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#dcd7ba" }
+LineNum      = { Colour="#54546d" }
+PreProcessor      = { Colour="#d27e99" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#c34043", Bold=true},
+  { Colour="#c0a36e"},
+  { Colour="#7e9cd8"},
+  { Colour="#c0a36e"},
+  { Colour="#c0a36e" }
+}

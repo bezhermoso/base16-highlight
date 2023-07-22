@@ -1,0 +1,26 @@
+-- Name: Base16 Material
+-- Author: Nate Peterson
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Material"
+
+Default = { Colour = "#eeffff" }
+Canvas = { Colour="#263238" }
+Number = { Colour="#f78c6c" }
+Escape = { Colour="#eeffff" , Italic=true}
+String = { Colour="#c3e88d" }
+BlockComment = { Colour="#546e7a" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#eeffff" }
+LineNum      = { Colour="#546e7a" }
+PreProcessor      = { Colour="#ff5370" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f07178", Bold=true},
+  { Colour="#ffcb6b"},
+  { Colour="#82aaff"},
+  { Colour="#ffcb6b"},
+  { Colour="#ffcb6b" }
+}

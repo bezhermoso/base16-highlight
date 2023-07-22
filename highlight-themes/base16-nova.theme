@@ -1,0 +1,26 @@
+-- Name: Base16 Nova
+-- Author: George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Nova"
+
+Default = { Colour = "#c5d4dd" }
+Canvas = { Colour="#3c4c55" }
+Number = { Colour="#7fc1ca" }
+Escape = { Colour="#899ba6" , Italic=true}
+String = { Colour="#7fc1ca" }
+BlockComment = { Colour="#899ba6" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#c5d4dd" }
+LineNum      = { Colour="#899ba6" }
+PreProcessor      = { Colour="#f2c38f" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#83afe5", Bold=true},
+  { Colour="#a8ce93"},
+  { Colour="#83afe5"},
+  { Colour="#a8ce93"},
+  { Colour="#a8ce93" }
+}

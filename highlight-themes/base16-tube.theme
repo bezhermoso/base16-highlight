@@ -1,0 +1,26 @@
+-- Name: Base16 London Tube
+-- Author: Jan T. Sott
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 London Tube"
+
+Default = { Colour = "#d9d8d8" }
+Canvas = { Colour="#231f20" }
+Number = { Colour="#f386a1" }
+Escape = { Colour="#e7e7e8" , Italic=true}
+String = { Colour="#00853e" }
+BlockComment = { Colour="#737171" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d9d8d8" }
+LineNum      = { Colour="#737171" }
+PreProcessor      = { Colour="#b06110" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ee2e24", Bold=true},
+  { Colour="#ffd204"},
+  { Colour="#009ddc"},
+  { Colour="#ffd204"},
+  { Colour="#ffd204" }
+}

@@ -2,7 +2,7 @@
 -- Author: Alexandre Gavioli (https://github.com/Alexx2/)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Grayscale Light"
 
 Default = { Colour = "#464646" }
 Canvas = { Colour="#f7f7f7" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#ababab" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#464646" }
-LineNum      = { Color="#ababab" }
+LineNum      = { Colour="#ababab" }
 PreProcessor      = { Colour="#5e5e5e" }
 Interpolation  = Escape
 

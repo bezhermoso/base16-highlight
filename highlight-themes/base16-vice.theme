@@ -1,0 +1,26 @@
+-- Name: Base16 vice
+-- Author: Thomas Leon Highbaugh thighbaugh@zoho.com
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 vice"
+
+Default = { Colour = "#8b9cbe" }
+Canvas = { Colour="#17191e" }
+Number = { Colour="#85ffe0" }
+Escape = { Colour="#b2bfd9" , Italic=true}
+String = { Colour="#0badff" }
+BlockComment = { Colour="#383a47" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#8b9cbe" }
+LineNum      = { Colour="#383a47" }
+PreProcessor      = { Colour="#ff3d81" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff29a8", Bold=true},
+  { Colour="#f0ffaa"},
+  { Colour="#00eaff"},
+  { Colour="#f0ffaa"},
+  { Colour="#f0ffaa" }
+}

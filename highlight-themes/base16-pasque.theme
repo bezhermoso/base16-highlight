@@ -1,0 +1,26 @@
+-- Name: Base16 Pasque
+-- Author: Gabriel Fontes (https://github.com/Misterio77)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Pasque"
+
+Default = { Colour = "#dedcdf" }
+Canvas = { Colour="#271c3a" }
+Number = { Colour="#918889" }
+Escape = { Colour="#edeaef" , Italic=true}
+String = { Colour="#c6914b" }
+BlockComment = { Colour="#5d5766" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#dedcdf" }
+LineNum      = { Colour="#5d5766" }
+PreProcessor      = { Colour="#59325c" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#a92258", Bold=true},
+  { Colour="#804ead"},
+  { Colour="#8e7dc6"},
+  { Colour="#804ead"},
+  { Colour="#804ead" }
+}

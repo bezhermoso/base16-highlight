@@ -1,0 +1,26 @@
+-- Name: Base16 Rebecca
+-- Author: Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Rebecca"
+
+Default = { Colour = "#f1eff8" }
+Canvas = { Colour="#292a44" }
+Number = { Colour="#efe4a1" }
+Escape = { Colour="#ccccff" , Italic=true}
+String = { Colour="#6dfedf" }
+BlockComment = { Colour="#666699" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#f1eff8" }
+LineNum      = { Colour="#666699" }
+PreProcessor      = { Colour="#ff79c6" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#a0a0c5", Bold=true},
+  { Colour="#ae81ff"},
+  { Colour="#2de0a7"},
+  { Colour="#ae81ff"},
+  { Colour="#ae81ff" }
+}

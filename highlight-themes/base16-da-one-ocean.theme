@@ -1,0 +1,26 @@
+-- Name: Base16 Da One Ocean
+-- Author: NNB (https://github.com/NNBnh)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Da One Ocean"
+
+Default = { Colour = "#ffffff" }
+Canvas = { Colour="#171726" }
+Number = { Colour="#ffc387" }
+Escape = { Colour="#ffffff" , Italic=true}
+String = { Colour="#98c379" }
+BlockComment = { Colour="#878d96" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#ffffff" }
+LineNum      = { Colour="#878d96" }
+PreProcessor      = { Colour="#b3684f" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#fa7883", Bold=true},
+  { Colour="#ff9470"},
+  { Colour="#6bb8ff"},
+  { Colour="#ff9470"},
+  { Colour="#ff9470" }
+}

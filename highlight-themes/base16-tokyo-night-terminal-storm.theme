@@ -1,0 +1,26 @@
+-- Name: Base16 Tokyo Night Terminal Storm
+-- Author: Michaël Ball
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Tokyo Night Terminal Storm"
+
+Default = { Colour = "#787c99" }
+Canvas = { Colour="#24283b" }
+Number = { Colour="#ff9e64" }
+Escape = { Colour="#cbccd1" , Italic=true}
+String = { Colour="#41a6b5" }
+BlockComment = { Colour="#444b6a" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#787c99" }
+LineNum      = { Colour="#444b6a" }
+PreProcessor      = { Colour="#d18616" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f7768e", Bold=true},
+  { Colour="#e0af68"},
+  { Colour="#7aa2f7"},
+  { Colour="#e0af68"},
+  { Colour="#e0af68" }
+}

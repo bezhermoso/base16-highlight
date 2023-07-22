@@ -1,0 +1,26 @@
+-- Name: Base16 Atelier Seaside Light
+-- Author: Bram de Haan (http://atelierbramdehaan.nl)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Atelier Seaside Light"
+
+Default = { Colour = "#5e6e5e" }
+Canvas = { Colour="#f4fbf4" }
+Number = { Colour="#87711d" }
+Escape = { Colour="#242924" , Italic=true}
+String = { Colour="#29a329" }
+BlockComment = { Colour="#809980" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#5e6e5e" }
+LineNum      = { Colour="#809980" }
+PreProcessor      = { Colour="#e619c3" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#e6193c", Bold=true},
+  { Colour="#98981b"},
+  { Colour="#3d62f5"},
+  { Colour="#98981b"},
+  { Colour="#98981b" }
+}

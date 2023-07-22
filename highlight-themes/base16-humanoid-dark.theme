@@ -1,0 +1,26 @@
+-- Name: Base16 Humanoid dark
+-- Author: Thomas (tasmo) Friese
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Humanoid dark"
+
+Default = { Colour = "#f8f8f2" }
+Canvas = { Colour="#232629" }
+Number = { Colour="#ff9505" }
+Escape = { Colour="#fcfcf6" , Italic=true}
+String = { Colour="#02d849" }
+BlockComment = { Colour="#60615d" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#f8f8f2" }
+LineNum      = { Colour="#60615d" }
+PreProcessor      = { Colour="#b27701" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f11235", Bold=true},
+  { Colour="#ffb627"},
+  { Colour="#00a6fb"},
+  { Colour="#ffb627"},
+  { Colour="#ffb627" }
+}

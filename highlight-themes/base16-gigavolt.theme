@@ -1,0 +1,26 @@
+-- Name: Base16 Gigavolt
+-- Author: Aidan Swope (http://github.com/Whillikers)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Gigavolt"
+
+Default = { Colour = "#e9e7e1" }
+Canvas = { Colour="#202126" }
+Number = { Colour="#19f988" }
+Escape = { Colour="#eff0f9" , Italic=true}
+String = { Colour="#f2e6a9" }
+BlockComment = { Colour="#a1d2e6" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#e9e7e1" }
+LineNum      = { Colour="#a1d2e6" }
+PreProcessor      = { Colour="#6187ff" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff661a", Bold=true},
+  { Colour="#ffdc2d"},
+  { Colour="#40bfff"},
+  { Colour="#ffdc2d"},
+  { Colour="#ffdc2d" }
+}

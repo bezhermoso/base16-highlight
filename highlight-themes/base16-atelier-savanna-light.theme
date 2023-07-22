@@ -1,0 +1,26 @@
+-- Name: Base16 Atelier Savanna Light
+-- Author: Bram de Haan (http://atelierbramdehaan.nl)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Atelier Savanna Light"
+
+Default = { Colour = "#526057" }
+Canvas = { Colour="#ecf4ee" }
+Number = { Colour="#9f713c" }
+Escape = { Colour="#232a25" , Italic=true}
+String = { Colour="#489963" }
+BlockComment = { Colour="#78877d" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#526057" }
+LineNum      = { Colour="#78877d" }
+PreProcessor      = { Colour="#867469" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#b16139", Bold=true},
+  { Colour="#a07e3b"},
+  { Colour="#478c90"},
+  { Colour="#a07e3b"},
+  { Colour="#a07e3b" }
+}

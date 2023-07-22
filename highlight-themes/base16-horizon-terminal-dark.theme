@@ -1,0 +1,26 @@
+-- Name: Base16 Horizon Terminal Dark
+-- Author: Michaël Ball (http://github.com/michael-ball/)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Horizon Terminal Dark"
+
+Default = { Colour = "#cbced0" }
+Canvas = { Colour="#1c1e26" }
+Number = { Colour="#fab795" }
+Escape = { Colour="#dcdfe4" , Italic=true}
+String = { Colour="#29d398" }
+BlockComment = { Colour="#6f6f70" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#cbced0" }
+LineNum      = { Colour="#6f6f70" }
+PreProcessor      = { Colour="#f09383" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#e95678", Bold=true},
+  { Colour="#fac29a"},
+  { Colour="#26bbd9"},
+  { Colour="#fac29a"},
+  { Colour="#fac29a" }
+}

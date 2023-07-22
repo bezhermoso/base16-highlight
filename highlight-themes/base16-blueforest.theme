@@ -1,0 +1,26 @@
+-- Name: Base16 Blue Forest
+-- Author: alonsodomin (https://github.com/alonsodomin)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Blue Forest"
+
+Default = { Colour = "#ffcc33" }
+Canvas = { Colour="#141f2e" }
+Number = { Colour="#ff8080" }
+Escape = { Colour="#91ccff" , Italic=true}
+String = { Colour="#80ff80" }
+BlockComment = { Colour="#a0ffa0" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#ffcc33" }
+LineNum      = { Colour="#a0ffa0" }
+PreProcessor      = { Colour="#e7e7e7" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#fffab1", Bold=true},
+  { Colour="#91ccff"},
+  { Colour="#a2cff5"},
+  { Colour="#91ccff"},
+  { Colour="#91ccff" }
+}

@@ -1,0 +1,26 @@
+-- Name: Base16 Espresso
+-- Author: Unknown. Maintained by Alex Mirrington (https://github.com/alexmirrington)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Espresso"
+
+Default = { Colour = "#cccccc" }
+Canvas = { Colour="#2d2d2d" }
+Number = { Colour="#f9a959" }
+Escape = { Colour="#e0e0e0" , Italic=true}
+String = { Colour="#a5c261" }
+BlockComment = { Colour="#777777" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#cccccc" }
+LineNum      = { Colour="#777777" }
+PreProcessor      = { Colour="#f97394" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#d25252", Bold=true},
+  { Colour="#ffc66d"},
+  { Colour="#6c99bb"},
+  { Colour="#ffc66d"},
+  { Colour="#ffc66d" }
+}

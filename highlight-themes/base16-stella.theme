@@ -1,0 +1,26 @@
+-- Name: Base16 Stella
+-- Author: Shrimpram
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Stella"
+
+Default = { Colour = "#998bad" }
+Canvas = { Colour="#2b213c" }
+Number = { Colour="#8865c6" }
+Escape = { Colour="#b4a5c8" , Italic=true}
+String = { Colour="#acc79b" }
+BlockComment = { Colour="#655978" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#998bad" }
+LineNum      = { Colour="#655978" }
+PreProcessor      = { Colour="#c7ab87" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#c79987", Bold=true},
+  { Colour="#c7c691"},
+  { Colour="#a5aad4"},
+  { Colour="#c7c691"},
+  { Colour="#c7c691" }
+}

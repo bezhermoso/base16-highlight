@@ -1,0 +1,26 @@
+-- Name: Base16 Dracula
+-- Author: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Dracula"
+
+Default = { Colour = "#e9e9f4" }
+Canvas = { Colour="#282936" }
+Number = { Colour="#b45bcf" }
+Escape = { Colour="#f1f2f8" , Italic=true}
+String = { Colour="#ebff87" }
+BlockComment = { Colour="#626483" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#e9e9f4" }
+LineNum      = { Colour="#626483" }
+PreProcessor      = { Colour="#00f769" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ea51b2", Bold=true},
+  { Colour="#00f769"},
+  { Colour="#62d6e8"},
+  { Colour="#00f769"},
+  { Colour="#00f769" }
+}

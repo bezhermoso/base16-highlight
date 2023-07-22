@@ -1,0 +1,26 @@
+-- Name: Base16 One Light
+-- Author: Daniel Pfeifer (http://github.com/purpleKarrot)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 One Light"
+
+Default = { Colour = "#383a42" }
+Canvas = { Colour="#fafafa" }
+Number = { Colour="#d75f00" }
+Escape = { Colour="#202227" , Italic=true}
+String = { Colour="#50a14f" }
+BlockComment = { Colour="#a0a1a7" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#383a42" }
+LineNum      = { Colour="#a0a1a7" }
+PreProcessor      = { Colour="#986801" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ca1243", Bold=true},
+  { Colour="#c18401"},
+  { Colour="#4078f2"},
+  { Colour="#c18401"},
+  { Colour="#c18401" }
+}

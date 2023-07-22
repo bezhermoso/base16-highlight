@@ -1,0 +1,26 @@
+-- Name: Base16 Windows High Contrast Light
+-- Author: Fergus Collins (https://github.com/C-Fergus)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Windows High Contrast Light"
+
+Default = { Colour = "#545454" }
+Canvas = { Colour="#fcfcfc" }
+Number = { Colour="#fcfc54" }
+Escape = { Colour="#2a2a2a" , Italic=true}
+String = { Colour="#008000" }
+BlockComment = { Colour="#c0c0c0" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#545454" }
+LineNum      = { Colour="#c0c0c0" }
+PreProcessor      = { Colour="#54fc54" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#800000", Bold=true},
+  { Colour="#808000"},
+  { Colour="#000080"},
+  { Colour="#808000"},
+  { Colour="#808000" }
+}

@@ -2,7 +2,7 @@
 -- Author: Timothée Poisot (http://github.com/tpoisot)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Brewer"
 
 Default = { Colour = "#b7b8b9" }
 Canvas = { Colour="#0c0d0e" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#737475" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#b7b8b9" }
-LineNum      = { Color="#737475" }
+LineNum      = { Colour="#737475" }
 PreProcessor      = { Colour="#b15928" }
 Interpolation  = Escape
 

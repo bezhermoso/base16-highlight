@@ -2,7 +2,7 @@
 -- Author: Jan T. Sott
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Isotope"
 
 Default = { Colour = "#d0d0d0" }
 Canvas = { Colour="#000000" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#808080" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#d0d0d0" }
-LineNum      = { Color="#808080" }
+LineNum      = { Colour="#808080" }
 PreProcessor      = { Colour="#3300ff" }
 Interpolation  = Escape
 

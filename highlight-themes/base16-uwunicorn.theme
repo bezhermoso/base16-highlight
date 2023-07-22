@@ -1,0 +1,26 @@
+-- Name: Base16 UwUnicorn
+-- Author: Fernando Marques (https://github.com/RakkiUwU) and Gabriel Fontes (https://github.com/Misterio77)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 UwUnicorn"
+
+Default = { Colour = "#eed5d9" }
+Canvas = { Colour="#241b26" }
+Number = { Colour="#de5b44" }
+Escape = { Colour="#d9c2c6" , Italic=true}
+String = { Colour="#c965bf" }
+BlockComment = { Colour="#6c3cb2" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#eed5d9" }
+LineNum      = { Colour="#6c3cb2" }
+PreProcessor      = { Colour="#a3a079" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#877bb6", Bold=true},
+  { Colour="#a84a73"},
+  { Colour="#6a9eb5"},
+  { Colour="#a84a73"},
+  { Colour="#a84a73" }
+}

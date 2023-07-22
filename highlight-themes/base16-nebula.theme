@@ -1,0 +1,26 @@
+-- Name: Base16 Nebula
+-- Author: Gabriel Fontes (https://github.com/Misterio77)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Nebula"
+
+Default = { Colour = "#a4a6a9" }
+Canvas = { Colour="#22273b" }
+Number = { Colour="#94929e" }
+Escape = { Colour="#c7c9cd" , Italic=true}
+String = { Colour="#6562a8" }
+BlockComment = { Colour="#6e6f72" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#a4a6a9" }
+LineNum      = { Colour="#6e6f72" }
+PreProcessor      = { Colour="#8c70a7" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#777abc", Bold=true},
+  { Colour="#4f9062"},
+  { Colour="#4d6bb6"},
+  { Colour="#4f9062"},
+  { Colour="#4f9062" }
+}

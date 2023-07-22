@@ -1,0 +1,26 @@
+-- Name: Base16 Decaf
+-- Author: Alex Mirrington (https://github.com/alexmirrington)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Decaf"
+
+Default = { Colour = "#cccccc" }
+Canvas = { Colour="#2d2d2d" }
+Number = { Colour="#ffbf70" }
+Escape = { Colour="#e0e0e0" , Italic=true}
+String = { Colour="#beda78" }
+BlockComment = { Colour="#777777" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#cccccc" }
+LineNum      = { Colour="#777777" }
+PreProcessor      = { Colour="#ff93b3" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff7f7b", Bold=true},
+  { Colour="#ffd67c"},
+  { Colour="#90bee1"},
+  { Colour="#ffd67c"},
+  { Colour="#ffd67c" }
+}

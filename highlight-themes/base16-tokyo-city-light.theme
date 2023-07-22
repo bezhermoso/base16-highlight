@@ -1,0 +1,26 @@
+-- Name: Base16 Tokyo City Light
+-- Author: Michaël Ball
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Tokyo City Light"
+
+Default = { Colour = "#343b59" }
+Canvas = { Colour="#fbfbfd" }
+Number = { Colour="#965027" }
+Escape = { Colour="#1d252c" , Italic=true}
+String = { Colour="#485e30" }
+BlockComment = { Colour="#9699a3" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#343b59" }
+LineNum      = { Colour="#9699a3" }
+PreProcessor      = { Colour="#5a4a78" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#8c4351", Bold=true},
+  { Colour="#4c505e"},
+  { Colour="#34548a"},
+  { Colour="#4c505e"},
+  { Colour="#4c505e" }
+}

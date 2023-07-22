@@ -1,0 +1,26 @@
+-- Name: Base16 Heetch Light
+-- Author: Geoffrey Teale (tealeg@gmail.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Heetch Light"
+
+Default = { Colour = "#5a496e" }
+Canvas = { Colour="#feffff" }
+Number = { Colour="#bdb6c5" }
+Escape = { Colour="#470546" , Italic=true}
+String = { Colour="#f80059" }
+BlockComment = { Colour="#9c92a8" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#5a496e" }
+LineNum      = { Colour="#9c92a8" }
+PreProcessor      = { Colour="#dedae2" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#27d9d5", Bold=true},
+  { Colour="#5ba2b6"},
+  { Colour="#47f9f5"},
+  { Colour="#5ba2b6"},
+  { Colour="#5ba2b6" }
+}

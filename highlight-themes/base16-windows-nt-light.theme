@@ -1,0 +1,26 @@
+-- Name: Base16 Windows NT Light
+-- Author: Fergus Collins (https://github.com/C-Fergus)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Windows NT Light"
+
+Default = { Colour = "#808080" }
+Canvas = { Colour="#ffffff" }
+Number = { Colour="#ffff00" }
+Escape = { Colour="#404040" , Italic=true}
+String = { Colour="#008000" }
+BlockComment = { Colour="#c0c0c0" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#808080" }
+LineNum      = { Colour="#c0c0c0" }
+PreProcessor      = { Colour="#00ff00" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#800000", Bold=true},
+  { Colour="#808000"},
+  { Colour="#000080"},
+  { Colour="#808000"},
+  { Colour="#808000" }
+}

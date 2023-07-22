@@ -1,0 +1,26 @@
+-- Name: Base16 Horizon Light
+-- Author: Michaël Ball (http://github.com/michael-ball/)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Horizon Light"
+
+Default = { Colour = "#403c3d" }
+Canvas = { Colour="#fdf0ed" }
+Number = { Colour="#f6661e" }
+Escape = { Colour="#302c2d" , Italic=true}
+String = { Colour="#94e1b0" }
+BlockComment = { Colour="#bdb3b1" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#403c3d" }
+LineNum      = { Colour="#bdb3b1" }
+PreProcessor      = { Colour="#e58c92" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f7939b", Bold=true},
+  { Colour="#fbe0d9"},
+  { Colour="#da103f"},
+  { Colour="#fbe0d9"},
+  { Colour="#fbe0d9" }
+}

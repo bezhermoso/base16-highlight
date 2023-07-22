@@ -1,0 +1,26 @@
+-- Name: Base16 Rosé Pine Moon
+-- Author: Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Rosé Pine Moon"
+
+Default = { Colour = "#e0def4" }
+Canvas = { Colour="#232136" }
+Number = { Colour="#eb6f92" }
+Escape = { Colour="#f5f5f7" , Italic=true}
+String = { Colour="#ea9a97" }
+BlockComment = { Colour="#59546d" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#e0def4" }
+LineNum      = { Colour="#59546d" }
+PreProcessor      = { Colour="#b9b9bc" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ecebf0", Bold=true},
+  { Colour="#f6c177"},
+  { Colour="#9ccfd8"},
+  { Colour="#f6c177"},
+  { Colour="#f6c177" }
+}

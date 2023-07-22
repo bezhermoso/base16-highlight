@@ -2,25 +2,25 @@
 -- Author: https://github.com/voronianski/oceanic-next-color-scheme
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 OceanicNext"
 
-Default = { Colour = "#C0C5CE" }
-Canvas = { Colour="#1B2B34" }
-Number = { Colour="#F99157" }
-Escape = { Colour="#CDD3DE" , Italic=true}
-String = { Colour="#99C794" }
-BlockComment = { Colour="#65737E" }
+Default = { Colour = "#c0c5ce" }
+Canvas = { Colour="#1b2b34" }
+Number = { Colour="#f99157" }
+Escape = { Colour="#cdd3de" , Italic=true}
+String = { Colour="#99c794" }
+BlockComment = { Colour="#65737e" }
 StringPreProc = String
 LineComment   = BlockComment
-Operator      = { Colour="#C0C5CE" }
-LineNum      = { Color="#65737E" }
-PreProcessor      = { Colour="#AB7967" }
+Operator      = { Colour="#c0c5ce" }
+LineNum      = { Colour="#65737e" }
+PreProcessor      = { Colour="#ab7967" }
 Interpolation  = Escape
 
 Keywords = {
-  { Colour="#EC5f67", Bold=true},
-  { Colour="#FAC863"},
-  { Colour="#6699CC"},
-  { Colour="#FAC863"},
-  { Colour="#FAC863" }
+  { Colour="#ec5f67", Bold=true},
+  { Colour="#fac863"},
+  { Colour="#6699cc"},
+  { Colour="#fac863"},
+  { Colour="#fac863" }
 }

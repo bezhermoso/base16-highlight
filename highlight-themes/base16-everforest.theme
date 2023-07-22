@@ -1,0 +1,26 @@
+-- Name: Base16 Everforest
+-- Author: Sainnhe Park (https://github.com/sainnhe)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Everforest"
+
+Default = { Colour = "#d3c6aa" }
+Canvas = { Colour="#2f383e" }
+Number = { Colour="#d699b6" }
+Escape = { Colour="#e4e1cd" , Italic=true}
+String = { Colour="#83c092" }
+BlockComment = { Colour="#859289" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d3c6aa" }
+LineNum      = { Colour="#859289" }
+PreProcessor      = { Colour="#eaedc8" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#7fbbb3", Bold=true},
+  { Colour="#dbbc7f"},
+  { Colour="#a7c080"},
+  { Colour="#dbbc7f"},
+  { Colour="#dbbc7f" }
+}

@@ -1,0 +1,26 @@
+-- Name: Base16 Material Darker
+-- Author: Nate Peterson
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Material Darker"
+
+Default = { Colour = "#eeffff" }
+Canvas = { Colour="#212121" }
+Number = { Colour="#f78c6c" }
+Escape = { Colour="#eeffff" , Italic=true}
+String = { Colour="#c3e88d" }
+BlockComment = { Colour="#4a4a4a" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#eeffff" }
+LineNum      = { Colour="#4a4a4a" }
+PreProcessor      = { Colour="#ff5370" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f07178", Bold=true},
+  { Colour="#ffcb6b"},
+  { Colour="#82aaff"},
+  { Colour="#ffcb6b"},
+  { Colour="#ffcb6b" }
+}

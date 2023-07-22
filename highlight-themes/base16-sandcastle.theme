@@ -1,0 +1,26 @@
+-- Name: Base16 Sandcastle
+-- Author: George Essig (https://github.com/gessig)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Sandcastle"
+
+Default = { Colour = "#a89984" }
+Canvas = { Colour="#282c34" }
+Number = { Colour="#a07e3b" }
+Escape = { Colour="#d5c4a1" , Italic=true}
+String = { Colour="#528b8b" }
+BlockComment = { Colour="#665c54" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#a89984" }
+LineNum      = { Colour="#665c54" }
+PreProcessor      = { Colour="#a87322" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#83a598", Bold=true},
+  { Colour="#a07e3b"},
+  { Colour="#83a598"},
+  { Colour="#a07e3b"},
+  { Colour="#a07e3b" }
+}

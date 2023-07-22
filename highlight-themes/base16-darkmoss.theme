@@ -1,0 +1,26 @@
+-- Name: Base16 darkmoss
+-- Author: Gabriel Avanzi (https://github.com/avanzzzi)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 darkmoss"
+
+Default = { Colour = "#c7c7a5" }
+Canvas = { Colour="#171e1f" }
+Number = { Colour="#e6db74" }
+Escape = { Colour="#e3e3c8" , Italic=true}
+String = { Colour="#499180" }
+BlockComment = { Colour="#555e5f" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#c7c7a5" }
+LineNum      = { Colour="#555e5f" }
+PreProcessor      = { Colour="#d27b53" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff4658", Bold=true},
+  { Colour="#fdb11f"},
+  { Colour="#498091"},
+  { Colour="#fdb11f"},
+  { Colour="#fdb11f" }
+}

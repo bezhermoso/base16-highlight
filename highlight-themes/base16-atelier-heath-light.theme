@@ -1,0 +1,26 @@
+-- Name: Base16 Atelier Heath Light
+-- Author: Bram de Haan (http://atelierbramdehaan.nl)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Atelier Heath Light"
+
+Default = { Colour = "#695d69" }
+Canvas = { Colour="#f7f3f7" }
+Number = { Colour="#a65926" }
+Escape = { Colour="#292329" , Italic=true}
+String = { Colour="#918b3b" }
+BlockComment = { Colour="#9e8f9e" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#695d69" }
+LineNum      = { Colour="#9e8f9e" }
+PreProcessor      = { Colour="#cc33cc" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ca402b", Bold=true},
+  { Colour="#bb8a35"},
+  { Colour="#516aec"},
+  { Colour="#bb8a35"},
+  { Colour="#bb8a35" }
+}

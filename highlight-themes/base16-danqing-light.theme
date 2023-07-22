@@ -1,0 +1,26 @@
+-- Name: Base16 DanQing Light
+-- Author: Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 DanQing Light"
+
+Default = { Colour = "#5a605d" }
+Canvas = { Colour="#fcfefd" }
+Number = { Colour="#b38a61" }
+Escape = { Colour="#434846" , Italic=true}
+String = { Colour="#8ab361" }
+BlockComment = { Colour="#cad8d2" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#5a605d" }
+LineNum      = { Colour="#cad8d2" }
+PreProcessor      = { Colour="#ca6924" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f9906f", Bold=true},
+  { Colour="#f0c239"},
+  { Colour="#b0a4e3"},
+  { Colour="#f0c239"},
+  { Colour="#f0c239" }
+}

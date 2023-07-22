@@ -1,0 +1,26 @@
+-- Name: Base16 Horizon Terminal Light
+-- Author: Michaël Ball (http://github.com/michael-ball/)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Horizon Terminal Light"
+
+Default = { Colour = "#403c3d" }
+Canvas = { Colour="#fdf0ed" }
+Number = { Colour="#f9cec3" }
+Escape = { Colour="#302c2d" , Italic=true}
+String = { Colour="#29d398" }
+BlockComment = { Colour="#bdb3b1" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#403c3d" }
+LineNum      = { Colour="#bdb3b1" }
+PreProcessor      = { Colour="#f9cbbe" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#e95678", Bold=true},
+  { Colour="#fadad1"},
+  { Colour="#26bbd9"},
+  { Colour="#fadad1"},
+  { Colour="#fadad1" }
+}

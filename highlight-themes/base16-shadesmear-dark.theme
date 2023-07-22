@@ -1,0 +1,26 @@
+-- Name: Base16 ShadeSmear Dark
+-- Author: Kyle Giammarco (http://kyle.giammar.co)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 ShadeSmear Dark"
+
+Default = { Colour = "#dbdbdb" }
+Canvas = { Colour="#232323" }
+Number = { Colour="#a64270" }
+Escape = { Colour="#e4e4e4" , Italic=true}
+String = { Colour="#71983b" }
+BlockComment = { Colour="#c0c0c0" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#dbdbdb" }
+LineNum      = { Colour="#c0c0c0" }
+PreProcessor      = { Colour="#6d6d6d" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#cc5450", Bold=true},
+  { Colour="#307878"},
+  { Colour="#376388"},
+  { Colour="#307878"},
+  { Colour="#307878" }
+}

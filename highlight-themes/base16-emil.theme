@@ -1,0 +1,26 @@
+-- Name: Base16 emil
+-- Author: limelier
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 emil"
+
+Default = { Colour = "#313145" }
+Canvas = { Colour="#efefef" }
+Number = { Colour="#d22a8b" }
+Escape = { Colour="#22223a" , Italic=true}
+String = { Colour="#0073a8" }
+BlockComment = { Colour="#7c7c98" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#313145" }
+LineNum      = { Colour="#7c7c98" }
+PreProcessor      = { Colour="#8d17a5" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f43979", Bold=true},
+  { Colour="#ff669b"},
+  { Colour="#471397"},
+  { Colour="#ff669b"},
+  { Colour="#ff669b" }
+}

@@ -2,7 +2,7 @@
 -- Author: Tyler Benziger (http://tybenz.com)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Shapeshifter"
 
 Default = { Colour = "#102015" }
 Canvas = { Colour="#f9f9f9" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#555555" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#102015" }
-LineNum      = { Color="#555555" }
+LineNum      = { Colour="#555555" }
 PreProcessor      = { Colour="#69542d" }
 Interpolation  = Escape
 

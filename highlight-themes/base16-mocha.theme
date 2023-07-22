@@ -2,10 +2,10 @@
 -- Author: Chris Kempson (http://chriskempson.com)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Mocha"
 
 Default = { Colour = "#d0c8c6" }
-Canvas = { Colour="#3B3228" }
+Canvas = { Colour="#3b3228" }
 Number = { Colour="#d28b71" }
 Escape = { Colour="#e9e1dd" , Italic=true}
 String = { Colour="#beb55b" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#7e705a" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#d0c8c6" }
-LineNum      = { Color="#7e705a" }
+LineNum      = { Colour="#7e705a" }
 PreProcessor      = { Colour="#bb9584" }
 Interpolation  = Escape
 

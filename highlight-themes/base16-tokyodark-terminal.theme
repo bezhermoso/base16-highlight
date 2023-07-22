@@ -1,0 +1,26 @@
+-- Name: Base16 Tokyodark Terminal
+-- Author: Tiagovla (https://github.com/tiagovla/)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Tokyodark Terminal"
+
+Default = { Colour = "#a0a8cd" }
+Canvas = { Colour="#11121d" }
+Number = { Colour="#f6955b" }
+Escape = { Colour="#a0a8cd" , Italic=true}
+String = { Colour="#95c561" }
+BlockComment = { Colour="#282c34" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#a0a8cd" }
+LineNum      = { Colour="#282c34" }
+PreProcessor      = { Colour="#773440" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ee6d85", Bold=true},
+  { Colour="#d7a65f"},
+  { Colour="#7199ee"},
+  { Colour="#d7a65f"},
+  { Colour="#d7a65f" }
+}

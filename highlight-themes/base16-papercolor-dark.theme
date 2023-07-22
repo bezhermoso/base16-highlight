@@ -1,0 +1,26 @@
+-- Name: Base16 PaperColor Dark
+-- Author: Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 PaperColor Dark"
+
+Default = { Colour = "#808080" }
+Canvas = { Colour="#1c1c1c" }
+Number = { Colour="#5faf5f" }
+Escape = { Colour="#d7875f" , Italic=true}
+String = { Colour="#af87d7" }
+BlockComment = { Colour="#d7af5f" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#808080" }
+LineNum      = { Colour="#d7af5f" }
+PreProcessor      = { Colour="#5f8787" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#585858", Bold=true},
+  { Colour="#afd700"},
+  { Colour="#ff5faf"},
+  { Colour="#afd700"},
+  { Colour="#afd700" }
+}

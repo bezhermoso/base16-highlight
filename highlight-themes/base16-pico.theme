@@ -2,7 +2,7 @@
 -- Author: PICO-8 (http://www.lexaloffle.com/pico-8.php)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Pico"
 
 Default = { Colour = "#5f574f" }
 Canvas = { Colour="#000000" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#008751" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#5f574f" }
-LineNum      = { Color="#008751" }
+LineNum      = { Colour="#008751" }
 PreProcessor      = { Colour="#ffccaa" }
 Interpolation  = Escape
 

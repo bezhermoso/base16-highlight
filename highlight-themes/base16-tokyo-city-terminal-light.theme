@@ -1,0 +1,26 @@
+-- Name: Base16 Tokyo City Terminal Light
+-- Author: Michaël Ball
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Tokyo City Terminal Light"
+
+Default = { Colour = "#28323a" }
+Canvas = { Colour="#fbfbfd" }
+Number = { Colour="#965027" }
+Escape = { Colour="#1d252c" , Italic=true}
+String = { Colour="#33635c" }
+BlockComment = { Colour="#b7c5d3" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#28323a" }
+LineNum      = { Colour="#b7c5d3" }
+PreProcessor      = { Colour="#7e5140" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#8c4351", Bold=true},
+  { Colour="#8f5e15"},
+  { Colour="#34548a"},
+  { Colour="#8f5e15"},
+  { Colour="#8f5e15" }
+}

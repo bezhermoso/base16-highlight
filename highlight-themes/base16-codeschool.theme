@@ -1,8 +1,8 @@
 -- Name: Base16 Codeschool
--- Author: brettof86
+-- Author: blockloop
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Codeschool"
 
 Default = { Colour = "#9ea7a6" }
 Canvas = { Colour="#232c31" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#3f4944" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#9ea7a6" }
-LineNum      = { Color="#3f4944" }
+LineNum      = { Colour="#3f4944" }
 PreProcessor      = { Colour="#c98344" }
 Interpolation  = Escape
 

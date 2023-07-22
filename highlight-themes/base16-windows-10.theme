@@ -1,0 +1,26 @@
+-- Name: Base16 Windows 10
+-- Author: Fergus Collins (https://github.com/C-Fergus)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Windows 10"
+
+Default = { Colour = "#cccccc" }
+Canvas = { Colour="#0c0c0c" }
+Number = { Colour="#c19c00" }
+Escape = { Colour="#dfdfdf" , Italic=true}
+String = { Colour="#16c60c" }
+BlockComment = { Colour="#767676" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#cccccc" }
+LineNum      = { Colour="#767676" }
+PreProcessor      = { Colour="#13a10e" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#e74856", Bold=true},
+  { Colour="#f9f1a5"},
+  { Colour="#3b78ff"},
+  { Colour="#f9f1a5"},
+  { Colour="#f9f1a5" }
+}

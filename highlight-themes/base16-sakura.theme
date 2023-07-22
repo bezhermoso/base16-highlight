@@ -1,0 +1,26 @@
+-- Name: Base16 Sakura
+-- Author: Misterio77 (http://github.com/Misterio77)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Sakura"
+
+Default = { Colour = "#564448" }
+Canvas = { Colour="#feedf3" }
+Number = { Colour="#f6661e" }
+Escape = { Colour="#42383a" , Italic=true}
+String = { Colour="#2e916d" }
+BlockComment = { Colour="#755f64" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#564448" }
+LineNum      = { Colour="#755f64" }
+PreProcessor      = { Colour="#ba0d35" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#df2d52", Bold=true},
+  { Colour="#c29461"},
+  { Colour="#006e93"},
+  { Colour="#c29461"},
+  { Colour="#c29461" }
+}

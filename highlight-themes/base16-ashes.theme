@@ -2,25 +2,25 @@
 -- Author: Jannik Siebert (https://github.com/janniks)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Ashes"
 
-Default = { Colour = "#C7CCD1" }
-Canvas = { Colour="#1C2023" }
-Number = { Colour="#C7C795" }
-Escape = { Colour="#DFE2E5" , Italic=true}
-String = { Colour="#95C7AE" }
-BlockComment = { Colour="#747C84" }
+Default = { Colour = "#c7ccd1" }
+Canvas = { Colour="#1c2023" }
+Number = { Colour="#c7c795" }
+Escape = { Colour="#dfe2e5" , Italic=true}
+String = { Colour="#95c7ae" }
+BlockComment = { Colour="#747c84" }
 StringPreProc = String
 LineComment   = BlockComment
-Operator      = { Colour="#C7CCD1" }
-LineNum      = { Color="#747C84" }
-PreProcessor      = { Colour="#C79595" }
+Operator      = { Colour="#c7ccd1" }
+LineNum      = { Colour="#747c84" }
+PreProcessor      = { Colour="#c79595" }
 Interpolation  = Escape
 
 Keywords = {
-  { Colour="#C7AE95", Bold=true},
-  { Colour="#AEC795"},
-  { Colour="#AE95C7"},
-  { Colour="#AEC795"},
-  { Colour="#AEC795" }
+  { Colour="#c7ae95", Bold=true},
+  { Colour="#aec795"},
+  { Colour="#ae95c7"},
+  { Colour="#aec795"},
+  { Colour="#aec795" }
 }

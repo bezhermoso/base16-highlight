@@ -1,0 +1,26 @@
+-- Name: Base16 Spaceduck
+-- Author: Guillermo Rodriguez (https://github.com/pineapplegiant), packaged by Gabriel Fontes (https://github.com/Misterio77)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Spaceduck"
+
+Default = { Colour = "#ecf0c1" }
+Canvas = { Colour="#16172d" }
+Number = { Colour="#e39400" }
+Escape = { Colour="#c1c3cc" , Italic=true}
+String = { Colour="#5ccc96" }
+BlockComment = { Colour="#686f9a" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#ecf0c1" }
+LineNum      = { Colour="#686f9a" }
+PreProcessor      = { Colour="#ce6f8f" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#e33400", Bold=true},
+  { Colour="#f2ce00"},
+  { Colour="#7a5ccc"},
+  { Colour="#f2ce00"},
+  { Colour="#f2ce00" }
+}

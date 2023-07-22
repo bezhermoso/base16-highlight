@@ -1,0 +1,26 @@
+-- Name: Base16 Humanoid light
+-- Author: Thomas (tasmo) Friese
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Humanoid light"
+
+Default = { Colour = "#232629" }
+Canvas = { Colour="#f8f8f2" }
+Number = { Colour="#ff3d00" }
+Escape = { Colour="#2f3337" , Italic=true}
+String = { Colour="#388e3c" }
+BlockComment = { Colour="#c0c0bd" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#232629" }
+LineNum      = { Colour="#c0c0bd" }
+PreProcessor      = { Colour="#b27701" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#b0151a", Bold=true},
+  { Colour="#ffb627"},
+  { Colour="#0082c9"},
+  { Colour="#ffb627"},
+  { Colour="#ffb627" }
+}

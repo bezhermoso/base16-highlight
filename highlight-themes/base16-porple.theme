@@ -1,0 +1,26 @@
+-- Name: Base16 Porple
+-- Author: Niek den Breeje (https://github.com/AuditeMarlow)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Porple"
+
+Default = { Colour = "#d8d8d8" }
+Canvas = { Colour="#292c36" }
+Number = { Colour="#d28e5d" }
+Escape = { Colour="#e8e8e8" , Italic=true}
+String = { Colour="#95c76f" }
+BlockComment = { Colour="#65568a" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d8d8d8" }
+LineNum      = { Colour="#65568a" }
+PreProcessor      = { Colour="#986841" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f84547", Bold=true},
+  { Colour="#efa16b"},
+  { Colour="#8485ce"},
+  { Colour="#efa16b"},
+  { Colour="#efa16b" }
+}

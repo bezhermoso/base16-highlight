@@ -1,8 +1,8 @@
 -- Name: Base16 Solarized Dark
--- Author: Ethan Schoonover (http://ethanschoonover.com/solarized)
+-- Author: Ethan Schoonover (modified by aramisgithub)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Solarized Dark"
 
 Default = { Colour = "#93a1a1" }
 Canvas = { Colour="#002b36" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#657b83" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#93a1a1" }
-LineNum      = { Color="#657b83" }
+LineNum      = { Colour="#657b83" }
 PreProcessor      = { Colour="#d33682" }
 Interpolation  = Escape
 

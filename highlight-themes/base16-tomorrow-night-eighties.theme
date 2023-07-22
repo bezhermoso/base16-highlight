@@ -1,0 +1,26 @@
+-- Name: Base16 Tomorrow Night Eighties
+-- Author: Chris Kempson (http://chriskempson.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Tomorrow Night Eighties"
+
+Default = { Colour = "#cccccc" }
+Canvas = { Colour="#2d2d2d" }
+Number = { Colour="#f99157" }
+Escape = { Colour="#e0e0e0" , Italic=true}
+String = { Colour="#99cc99" }
+BlockComment = { Colour="#999999" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#cccccc" }
+LineNum      = { Colour="#999999" }
+PreProcessor      = { Colour="#a3685a" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f2777a", Bold=true},
+  { Colour="#ffcc66"},
+  { Colour="#6699cc"},
+  { Colour="#ffcc66"},
+  { Colour="#ffcc66" }
+}

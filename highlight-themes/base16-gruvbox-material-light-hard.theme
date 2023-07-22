@@ -1,0 +1,26 @@
+-- Name: Base16 Gruvbox Material Light, Hard
+-- Author: Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Gruvbox Material Light, Hard"
+
+Default = { Colour = "#654735" }
+Canvas = { Colour="#f9f5d7" }
+Number = { Colour="#c35e0a" }
+Escape = { Colour="#3c3836" , Italic=true}
+String = { Colour="#6c782e" }
+BlockComment = { Colour="#a89984" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#654735" }
+LineNum      = { Colour="#a89984" }
+PreProcessor      = { Colour="#e78a4e" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#c14a4a", Bold=true},
+  { Colour="#b47109"},
+  { Colour="#45707a"},
+  { Colour="#b47109"},
+  { Colour="#b47109" }
+}

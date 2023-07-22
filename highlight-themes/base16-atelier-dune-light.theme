@@ -1,0 +1,26 @@
+-- Name: Base16 Atelier Dune Light
+-- Author: Bram de Haan (http://atelierbramdehaan.nl)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Atelier Dune Light"
+
+Default = { Colour = "#6e6b5e" }
+Canvas = { Colour="#fefbec" }
+Number = { Colour="#b65611" }
+Escape = { Colour="#292824" , Italic=true}
+String = { Colour="#60ac39" }
+BlockComment = { Colour="#999580" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#6e6b5e" }
+LineNum      = { Colour="#999580" }
+PreProcessor      = { Colour="#d43552" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#d73737", Bold=true},
+  { Colour="#ae9513"},
+  { Colour="#6684e1"},
+  { Colour="#ae9513"},
+  { Colour="#ae9513" }
+}

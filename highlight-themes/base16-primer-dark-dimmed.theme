@@ -1,0 +1,26 @@
+-- Name: Base16 Primer Dark Dimmed
+-- Author: Jimmy Lin
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Primer Dark Dimmed"
+
+Default = { Colour = "#909dab" }
+Canvas = { Colour="#1c2128" }
+Number = { Colour="#e0823d" }
+Escape = { Colour="#adbac7" , Italic=true}
+String = { Colour="#57ab5a" }
+BlockComment = { Colour="#545d68" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#909dab" }
+LineNum      = { Colour="#545d68" }
+PreProcessor      = { Colour="#ae5622" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f47067", Bold=true},
+  { Colour="#c69026"},
+  { Colour="#539bf5"},
+  { Colour="#c69026"},
+  { Colour="#c69026" }
+}

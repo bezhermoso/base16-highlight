@@ -1,0 +1,26 @@
+-- Name: Base16 Hardcore
+-- Author: Chris Caller
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Hardcore"
+
+Default = { Colour = "#cdcdcd" }
+Canvas = { Colour="#212121" }
+Number = { Colour="#fd971f" }
+Escape = { Colour="#e5e5e5" , Italic=true}
+String = { Colour="#a6e22e" }
+BlockComment = { Colour="#4a4a4a" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#cdcdcd" }
+LineNum      = { Colour="#4a4a4a" }
+PreProcessor      = { Colour="#e8b882" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f92672", Bold=true},
+  { Colour="#e6db74"},
+  { Colour="#66d9ef"},
+  { Colour="#e6db74"},
+  { Colour="#e6db74" }
+}

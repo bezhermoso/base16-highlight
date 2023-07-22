@@ -1,0 +1,26 @@
+-- Name: Base16 Still Alive
+-- Author: Derrick McKee (derrick.mckee@gmail.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Still Alive"
+
+Default = { Colour = "#d80000" }
+Canvas = { Colour="#f0f0f0" }
+Number = { Colour="#183048" }
+Escape = { Colour="#489000" , Italic=true}
+String = { Colour="#5c5c6a" }
+BlockComment = { Colour="#f01818" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d80000" }
+LineNum      = { Colour="#f01818" }
+PreProcessor      = { Colour="#140c0d" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#487830", Bold=true},
+  { Colour="#426395"},
+  { Colour="#001878"},
+  { Colour="#426395"},
+  { Colour="#426395" }
+}

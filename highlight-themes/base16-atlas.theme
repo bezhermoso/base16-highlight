@@ -1,0 +1,26 @@
+-- Name: Base16 Atlas
+-- Author: Alex Lende (https://ajlende.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Atlas"
+
+Default = { Colour = "#a1a19a" }
+Canvas = { Colour="#002635" }
+Number = { Colour="#f08e48" }
+Escape = { Colour="#e6e6dc" , Italic=true}
+String = { Colour="#7fc06e" }
+BlockComment = { Colour="#6c8b91" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#a1a19a" }
+LineNum      = { Colour="#6c8b91" }
+PreProcessor      = { Colour="#c43060" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff5a67", Bold=true},
+  { Colour="#ffcc1b"},
+  { Colour="#5dd7b9"},
+  { Colour="#ffcc1b"},
+  { Colour="#ffcc1b" }
+}

@@ -1,0 +1,26 @@
+-- Name: Base16 Icy Dark
+-- Author: icyphox (https://icyphox.ga)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Icy Dark"
+
+Default = { Colour = "#095b67" }
+Canvas = { Colour="#021012" }
+Number = { Colour="#b3ebf2" }
+Escape = { Colour="#0c7c8c" , Italic=true}
+String = { Colour="#4dd0e1" }
+BlockComment = { Colour="#052e34" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#095b67" }
+LineNum      = { Colour="#052e34" }
+PreProcessor      = { Colour="#0097a7" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#16c1d9", Bold=true},
+  { Colour="#80deea"},
+  { Colour="#00bcd4"},
+  { Colour="#80deea"},
+  { Colour="#80deea" }
+}

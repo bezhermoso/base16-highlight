@@ -1,0 +1,26 @@
+-- Name: Base16 Black Metal (Mayhem)
+-- Author: metalelf0 (https://github.com/metalelf0)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Black Metal (Mayhem)"
+
+Default = { Colour = "#c1c1c1" }
+Canvas = { Colour="#000000" }
+Number = { Colour="#aaaaaa" }
+Escape = { Colour="#999999" , Italic=true}
+String = { Colour="#f3ecd4" }
+BlockComment = { Colour="#333333" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#c1c1c1" }
+LineNum      = { Colour="#333333" }
+PreProcessor      = { Colour="#444444" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#5f8787", Bold=true},
+  { Colour="#eecc6c"},
+  { Colour="#888888"},
+  { Colour="#eecc6c"},
+  { Colour="#eecc6c" }
+}

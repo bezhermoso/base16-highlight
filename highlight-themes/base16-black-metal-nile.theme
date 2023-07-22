@@ -1,0 +1,26 @@
+-- Name: Base16 Black Metal (Nile)
+-- Author: metalelf0 (https://github.com/metalelf0)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Black Metal (Nile)"
+
+Default = { Colour = "#c1c1c1" }
+Canvas = { Colour="#000000" }
+Number = { Colour="#aaaaaa" }
+Escape = { Colour="#999999" , Italic=true}
+String = { Colour="#aa9988" }
+BlockComment = { Colour="#333333" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#c1c1c1" }
+LineNum      = { Colour="#333333" }
+PreProcessor      = { Colour="#444444" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#5f8787", Bold=true},
+  { Colour="#777755"},
+  { Colour="#888888"},
+  { Colour="#777755"},
+  { Colour="#777755" }
+}

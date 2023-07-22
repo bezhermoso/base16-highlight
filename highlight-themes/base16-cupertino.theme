@@ -1,0 +1,26 @@
+-- Name: Base16 Cupertino
+-- Author: Defman21
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Cupertino"
+
+Default = { Colour = "#404040" }
+Canvas = { Colour="#ffffff" }
+Number = { Colour="#eb8500" }
+Escape = { Colour="#404040" , Italic=true}
+String = { Colour="#007400" }
+BlockComment = { Colour="#808080" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#404040" }
+LineNum      = { Colour="#808080" }
+PreProcessor      = { Colour="#826b28" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#c41a15", Bold=true},
+  { Colour="#826b28"},
+  { Colour="#0000ff"},
+  { Colour="#826b28"},
+  { Colour="#826b28" }
+}

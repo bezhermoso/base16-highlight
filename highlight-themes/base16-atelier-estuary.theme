@@ -2,7 +2,7 @@
 -- Author: Bram de Haan (http://atelierbramdehaan.nl)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Atelier Estuary"
 
 Default = { Colour = "#929181" }
 Canvas = { Colour="#22221b" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#6c6b5a" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#929181" }
-LineNum      = { Color="#6c6b5a" }
+LineNum      = { Colour="#6c6b5a" }
 PreProcessor      = { Colour="#9d6c7c" }
 Interpolation  = Escape
 

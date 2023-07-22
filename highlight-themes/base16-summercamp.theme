@@ -1,0 +1,26 @@
+-- Name: Base16 summercamp
+-- Author: zoe firi (zoefiri.github.io)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 summercamp"
+
+Default = { Colour = "#736e55" }
+Canvas = { Colour="#1c1810" }
+Number = { Colour="#fba11b" }
+Escape = { Colour="#bab696" , Italic=true}
+String = { Colour="#5ceb5a" }
+BlockComment = { Colour="#504b38" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#736e55" }
+LineNum      = { Colour="#504b38" }
+PreProcessor      = { Colour="#f69be7" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#e35142", Bold=true},
+  { Colour="#f2ff27"},
+  { Colour="#489bf0"},
+  { Colour="#f2ff27"},
+  { Colour="#f2ff27" }
+}

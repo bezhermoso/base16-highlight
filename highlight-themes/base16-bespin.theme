@@ -2,7 +2,7 @@
 -- Author: Jan T. Sott
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Bespin"
 
 Default = { Colour = "#8a8986" }
 Canvas = { Colour="#28211c" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#666666" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#8a8986" }
-LineNum      = { Color="#666666" }
+LineNum      = { Colour="#666666" }
 PreProcessor      = { Colour="#937121" }
 Interpolation  = Escape
 

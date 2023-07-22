@@ -2,7 +2,7 @@
 -- Author: Jannik Siebert (https://github.com/janniks)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Harmonic16 Light"
 
 Default = { Colour = "#405c79" }
 Canvas = { Colour="#f7f9fb" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#aabcce" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#405c79" }
-LineNum      = { Color="#aabcce" }
+LineNum      = { Colour="#aabcce" }
 PreProcessor      = { Colour="#bf5656" }
 Interpolation  = Escape
 

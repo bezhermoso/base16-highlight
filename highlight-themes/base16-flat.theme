@@ -2,25 +2,25 @@
 -- Author: Chris Kempson (http://chriskempson.com)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Flat"
 
 Default = { Colour = "#e0e0e0" }
-Canvas = { Colour="#2C3E50" }
-Number = { Colour="#E67E22" }
+Canvas = { Colour="#2c3e50" }
+Number = { Colour="#e67e22" }
 Escape = { Colour="#f5f5f5" , Italic=true}
-String = { Colour="#2ECC71" }
-BlockComment = { Colour="#95A5A6" }
+String = { Colour="#2ecc71" }
+BlockComment = { Colour="#95a5a6" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#e0e0e0" }
-LineNum      = { Color="#95A5A6" }
+LineNum      = { Colour="#95a5a6" }
 PreProcessor      = { Colour="#be643c" }
 Interpolation  = Escape
 
 Keywords = {
-  { Colour="#E74C3C", Bold=true},
-  { Colour="#F1C40F"},
-  { Colour="#3498DB"},
-  { Colour="#F1C40F"},
-  { Colour="#F1C40F" }
+  { Colour="#e74c3c", Bold=true},
+  { Colour="#f1c40f"},
+  { Colour="#3498db"},
+  { Colour="#f1c40f"},
+  { Colour="#f1c40f" }
 }

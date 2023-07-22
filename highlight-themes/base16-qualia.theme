@@ -1,0 +1,26 @@
+-- Name: Base16 Qualia
+-- Author: isaacwhanson
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Qualia"
+
+Default = { Colour = "#c0c0c0" }
+Canvas = { Colour="#101010" }
+Number = { Colour="#a3b8ef" }
+Escape = { Colour="#c0c0c0" , Italic=true}
+String = { Colour="#80c990" }
+BlockComment = { Colour="#454545" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#c0c0c0" }
+LineNum      = { Colour="#454545" }
+PreProcessor      = { Colour="#808080" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#efa6a2", Bold=true},
+  { Colour="#e6a3dc"},
+  { Colour="#50cacd"},
+  { Colour="#e6a3dc"},
+  { Colour="#e6a3dc" }
+}

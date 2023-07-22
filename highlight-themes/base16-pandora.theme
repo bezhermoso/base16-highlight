@@ -1,0 +1,26 @@
+-- Name: Base16 pandora
+-- Author: Cassandra Fox
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 pandora"
+
+Default = { Colour = "#f15c99" }
+Canvas = { Colour="#131213" }
+Number = { Colour="#ff9153" }
+Escape = { Colour="#81506a" , Italic=true}
+String = { Colour="#9ddf69" }
+BlockComment = { Colour="#ffbee3" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#f15c99" }
+LineNum      = { Colour="#ffbee3" }
+PreProcessor      = { Colour="#a24030" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#b00b69", Bold=true},
+  { Colour="#ffcc00"},
+  { Colour="#008080"},
+  { Colour="#ffcc00"},
+  { Colour="#ffcc00" }
+}

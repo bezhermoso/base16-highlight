@@ -1,0 +1,26 @@
+-- Name: Base16 Woodland
+-- Author: Jay Cornwall (https://jcornwall.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Woodland"
+
+Default = { Colour = "#cabcb1" }
+Canvas = { Colour="#231e18" }
+Number = { Colour="#ca7f32" }
+Escape = { Colour="#d7c8bc" , Italic=true}
+String = { Colour="#b7ba53" }
+BlockComment = { Colour="#9d8b70" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#cabcb1" }
+LineNum      = { Colour="#9d8b70" }
+PreProcessor      = { Colour="#b49368" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#d35c5c", Bold=true},
+  { Colour="#e0ac16"},
+  { Colour="#88a4d3"},
+  { Colour="#e0ac16"},
+  { Colour="#e0ac16" }
+}

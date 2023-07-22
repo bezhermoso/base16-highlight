@@ -1,0 +1,26 @@
+-- Name: Base16 Atelier Estuary Light
+-- Author: Bram de Haan (http://atelierbramdehaan.nl)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Atelier Estuary Light"
+
+Default = { Colour = "#5f5e4e" }
+Canvas = { Colour="#f4f3ec" }
+Number = { Colour="#ae7313" }
+Escape = { Colour="#302f27" , Italic=true}
+String = { Colour="#7d9726" }
+BlockComment = { Colour="#878573" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#5f5e4e" }
+LineNum      = { Colour="#878573" }
+PreProcessor      = { Colour="#9d6c7c" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ba6236", Bold=true},
+  { Colour="#a5980d"},
+  { Colour="#36a166"},
+  { Colour="#a5980d"},
+  { Colour="#a5980d" }
+}

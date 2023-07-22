@@ -1,0 +1,26 @@
+-- Name: Base16 Darcula
+-- Author: jetbrains
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Darcula"
+
+Default = { Colour = "#a9b7c6" }
+Canvas = { Colour="#2b2b2b" }
+Number = { Colour="#689757" }
+Escape = { Colour="#ffc66d" , Italic=true}
+String = { Colour="#6a8759" }
+BlockComment = { Colour="#606366" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#a9b7c6" }
+LineNum      = { Colour="#606366" }
+PreProcessor      = { Colour="#808080" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#4eade5", Bold=true},
+  { Colour="#bbb529"},
+  { Colour="#9876aa"},
+  { Colour="#bbb529"},
+  { Colour="#bbb529" }
+}

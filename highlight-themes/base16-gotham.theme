@@ -1,0 +1,26 @@
+-- Name: Base16 Gotham
+-- Author: Andrea Leopardi (arranged by Brett Jones)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Gotham"
+
+Default = { Colour = "#599cab" }
+Canvas = { Colour="#0c1014" }
+Number = { Colour="#d26937" }
+Escape = { Colour="#99d1ce" , Italic=true}
+String = { Colour="#33859e" }
+BlockComment = { Colour="#0a3749" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#599cab" }
+LineNum      = { Colour="#0a3749" }
+PreProcessor      = { Colour="#4e5166" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#c23127", Bold=true},
+  { Colour="#edb443"},
+  { Colour="#195466"},
+  { Colour="#edb443"},
+  { Colour="#edb443" }
+}

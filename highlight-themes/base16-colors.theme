@@ -1,0 +1,26 @@
+-- Name: Base16 Colors
+-- Author: mrmrs (http://clrs.cc)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Colors"
+
+Default = { Colour = "#bbbbbb" }
+Canvas = { Colour="#111111" }
+Number = { Colour="#ff851b" }
+Escape = { Colour="#dddddd" , Italic=true}
+String = { Colour="#2ecc40" }
+BlockComment = { Colour="#777777" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#bbbbbb" }
+LineNum      = { Colour="#777777" }
+PreProcessor      = { Colour="#85144b" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff4136", Bold=true},
+  { Colour="#ffdc00"},
+  { Colour="#0074d9"},
+  { Colour="#ffdc00"},
+  { Colour="#ffdc00" }
+}

@@ -1,0 +1,26 @@
+-- Name: Base16 Ayu Light
+-- Author: Khue Nguyen &lt;Z5483Y@gmail.com&gt;
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Ayu Light"
+
+Default = { Colour = "#5c6773" }
+Canvas = { Colour="#fafafa" }
+Number = { Colour="#fa8d3e" }
+Escape = { Colour="#242936" , Italic=true}
+String = { Colour="#86b300" }
+BlockComment = { Colour="#abb0b6" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#5c6773" }
+LineNum      = { Colour="#abb0b6" }
+PreProcessor      = { Colour="#e6ba7e" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f07178", Bold=true},
+  { Colour="#f2ae49"},
+  { Colour="#36a3d9"},
+  { Colour="#f2ae49"},
+  { Colour="#f2ae49" }
+}

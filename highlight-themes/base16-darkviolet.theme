@@ -1,0 +1,26 @@
+-- Name: Base16 Dark Violet
+-- Author: ruler501 (https://github.com/ruler501/base16-darkviolet)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Dark Violet"
+
+Default = { Colour = "#b08ae6" }
+Canvas = { Colour="#000000" }
+Number = { Colour="#bb66cc" }
+Escape = { Colour="#9045e6" , Italic=true}
+String = { Colour="#4595e6" }
+BlockComment = { Colour="#593380" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#b08ae6" }
+LineNum      = { Colour="#593380" }
+PreProcessor      = { Colour="#a886bf" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#a82ee6", Bold=true},
+  { Colour="#f29df2"},
+  { Colour="#4136d9"},
+  { Colour="#f29df2"},
+  { Colour="#f29df2" }
+}

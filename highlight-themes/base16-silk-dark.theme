@@ -1,0 +1,26 @@
+-- Name: Base16 Silk Dark
+-- Author: Gabriel Fontes (https://github.com/Misterio77)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Silk Dark"
+
+Default = { Colour = "#c7dbdd" }
+Canvas = { Colour="#0e3c46" }
+Number = { Colour="#fcab74" }
+Escape = { Colour="#cbf2f7" , Italic=true}
+String = { Colour="#73d8ad" }
+BlockComment = { Colour="#587073" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#c7dbdd" }
+LineNum      = { Colour="#587073" }
+PreProcessor      = { Colour="#9b647b" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#fb6953", Bold=true},
+  { Colour="#fce380"},
+  { Colour="#46bddd"},
+  { Colour="#fce380"},
+  { Colour="#fce380" }
+}

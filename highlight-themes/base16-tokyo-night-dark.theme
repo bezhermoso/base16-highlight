@@ -1,0 +1,26 @@
+-- Name: Base16 Tokyo Night Dark
+-- Author: Michaël Ball
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Tokyo Night Dark"
+
+Default = { Colour = "#a9b1d6" }
+Canvas = { Colour="#1a1b26" }
+Number = { Colour="#a9b1d6" }
+Escape = { Colour="#cbccd1" , Italic=true}
+String = { Colour="#9ece6a" }
+BlockComment = { Colour="#444b6a" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#a9b1d6" }
+LineNum      = { Colour="#444b6a" }
+PreProcessor      = { Colour="#f7768e" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#c0caf5", Bold=true},
+  { Colour="#0db9d7"},
+  { Colour="#2ac3de"},
+  { Colour="#0db9d7"},
+  { Colour="#0db9d7" }
+}

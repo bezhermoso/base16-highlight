@@ -1,0 +1,26 @@
+-- Name: Base16 vulcan
+-- Author: Andrey Varfolomeev
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 vulcan"
+
+Default = { Colour = "#5b778c" }
+Canvas = { Colour="#041523" }
+Number = { Colour="#9198a3" }
+Escape = { Colour="#333238" , Italic=true}
+String = { Colour="#977d7c" }
+BlockComment = { Colour="#7a5759" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#5b778c" }
+LineNum      = { Colour="#7a5759" }
+PreProcessor      = { Colour="#977d7c" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#818591", Bold=true},
+  { Colour="#adb4b9"},
+  { Colour="#977d7c"},
+  { Colour="#adb4b9"},
+  { Colour="#adb4b9" }
+}

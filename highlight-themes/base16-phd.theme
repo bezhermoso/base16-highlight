@@ -2,7 +2,7 @@
 -- Author: Hennig Hasemann (http://leetless.de/vim.html)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 PhD"
 
 Default = { Colour = "#b8bbc2" }
 Canvas = { Colour="#061229" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#717885" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#b8bbc2" }
-LineNum      = { Color="#717885" }
+LineNum      = { Colour="#717885" }
 PreProcessor      = { Colour="#b08060" }
 Interpolation  = Escape
 

@@ -2,7 +2,7 @@
 -- Author: Nasser Alshammari (https://github.com/nashamri/spacemacs-theme)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Spacemacs"
 
 Default = { Colour = "#a3a3a3" }
 Canvas = { Colour="#1f2022" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#585858" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#a3a3a3" }
-LineNum      = { Color="#585858" }
+LineNum      = { Colour="#585858" }
 PreProcessor      = { Colour="#b03060" }
 Interpolation  = Escape
 

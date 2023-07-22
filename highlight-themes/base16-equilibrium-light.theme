@@ -1,0 +1,26 @@
+-- Name: Base16 Equilibrium Light
+-- Author: Carlo Abelli
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Equilibrium Light"
+
+Default = { Colour = "#43474e" }
+Canvas = { Colour="#f5f0e7" }
+Number = { Colour="#bf3e05" }
+Escape = { Colour="#2c3138" , Italic=true}
+String = { Colour="#637200" }
+BlockComment = { Colour="#73777f" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#43474e" }
+LineNum      = { Colour="#73777f" }
+PreProcessor      = { Colour="#c42775" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#d02023", Bold=true},
+  { Colour="#9d6f00"},
+  { Colour="#0073b5"},
+  { Colour="#9d6f00"},
+  { Colour="#9d6f00" }
+}

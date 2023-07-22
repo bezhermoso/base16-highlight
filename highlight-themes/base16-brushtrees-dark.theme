@@ -1,0 +1,26 @@
+-- Name: Base16 Brush Trees Dark
+-- Author: Abraham White &lt;abelincoln.white@gmail.com&gt;
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Brush Trees Dark"
+
+Default = { Colour = "#b0c5c8" }
+Canvas = { Colour="#485867" }
+Number = { Colour="#d8bba2" }
+Escape = { Colour="#c9dbdc" , Italic=true}
+String = { Colour="#87b386" }
+BlockComment = { Colour="#8299a1" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#b0c5c8" }
+LineNum      = { Colour="#8299a1" }
+PreProcessor      = { Colour="#b39f9f" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#b38686", Bold=true},
+  { Colour="#aab386"},
+  { Colour="#868cb3"},
+  { Colour="#aab386"},
+  { Colour="#aab386" }
+}

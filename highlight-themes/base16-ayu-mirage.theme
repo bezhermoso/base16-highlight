@@ -1,0 +1,26 @@
+-- Name: Base16 Ayu Mirage
+-- Author: Khue Nguyen &lt;Z5483Y@gmail.com&gt;
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Ayu Mirage"
+
+Default = { Colour = "#cccac2" }
+Canvas = { Colour="#171b24" }
+Number = { Colour="#ffad66" }
+Escape = { Colour="#d9d7ce" , Italic=true}
+String = { Colour="#d5ff80" }
+BlockComment = { Colour="#707a8c" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#cccac2" }
+LineNum      = { Colour="#707a8c" }
+PreProcessor      = { Colour="#f29e74" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f28779", Bold=true},
+  { Colour="#ffd173"},
+  { Colour="#5ccfe6"},
+  { Colour="#ffd173"},
+  { Colour="#ffd173" }
+}

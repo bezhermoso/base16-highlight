@@ -1,0 +1,26 @@
+-- Name: Base16 Zenbones
+-- Author: mcchrish
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Zenbones"
+
+Default = { Colour = "#b279a7" }
+Canvas = { Colour="#191919" }
+Number = { Colour="#e8838f" }
+Escape = { Colour="#66a5ad" , Italic=true}
+String = { Colour="#d68c67" }
+BlockComment = { Colour="#b77e64" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#b279a7" }
+LineNum      = { Colour="#b77e64" }
+PreProcessor      = { Colour="#8e8e8e" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#3d3839", Bold=true},
+  { Colour="#8bae68"},
+  { Colour="#cf86c1"},
+  { Colour="#8bae68"},
+  { Colour="#8bae68" }
+}

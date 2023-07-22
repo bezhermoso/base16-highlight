@@ -1,0 +1,26 @@
+-- Name: Base16 Silk Light
+-- Author: Gabriel Fontes (https://github.com/Misterio77)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Silk Light"
+
+Default = { Colour = "#385156" }
+Canvas = { Colour="#e9f1ef" }
+Number = { Colour="#d27f46" }
+Escape = { Colour="#0e3c46" , Italic=true}
+String = { Colour="#6ca38c" }
+BlockComment = { Colour="#5c787b" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#385156" }
+LineNum      = { Colour="#5c787b" }
+PreProcessor      = { Colour="#865369" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#cf432e", Bold=true},
+  { Colour="#cfad25"},
+  { Colour="#39aac9"},
+  { Colour="#cfad25"},
+  { Colour="#cfad25" }
+}

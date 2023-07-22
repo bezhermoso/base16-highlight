@@ -1,0 +1,26 @@
+-- Name: Base16 Edge Light
+-- Author: cjayross (https://github.com/cjayross)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Edge Light"
+
+Default = { Colour = "#5e646f" }
+Canvas = { Colour="#fafafa" }
+Number = { Colour="#db7070" }
+Escape = { Colour="#b870ce" , Italic=true}
+String = { Colour="#7c9f4b" }
+BlockComment = { Colour="#5e646f" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#5e646f" }
+LineNum      = { Colour="#5e646f" }
+PreProcessor      = { Colour="#509c93" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#db7070", Bold=true},
+  { Colour="#d69822"},
+  { Colour="#6587bf"},
+  { Colour="#d69822"},
+  { Colour="#d69822" }
+}

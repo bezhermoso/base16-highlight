@@ -1,0 +1,26 @@
+-- Name: Base16 Gruvbox dark, soft
+-- Author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Gruvbox dark, soft"
+
+Default = { Colour = "#d5c4a1" }
+Canvas = { Colour="#32302f" }
+Number = { Colour="#fe8019" }
+Escape = { Colour="#ebdbb2" , Italic=true}
+String = { Colour="#b8bb26" }
+BlockComment = { Colour="#665c54" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d5c4a1" }
+LineNum      = { Colour="#665c54" }
+PreProcessor      = { Colour="#d65d0e" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#fb4934", Bold=true},
+  { Colour="#fabd2f"},
+  { Colour="#83a598"},
+  { Colour="#fabd2f"},
+  { Colour="#fabd2f" }
+}

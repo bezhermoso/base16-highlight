@@ -1,0 +1,26 @@
+-- Name: Base16 Da One White
+-- Author: NNB (https://github.com/NNBnh)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Da One White"
+
+Default = { Colour = "#181818" }
+Canvas = { Colour="#ffffff" }
+Number = { Colour="#ff9470" }
+Escape = { Colour="#000000" , Italic=true}
+String = { Colour="#76a85d" }
+BlockComment = { Colour="#585858" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#181818" }
+LineNum      = { Colour="#585858" }
+PreProcessor      = { Colour="#b3684f" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#de5d6e", Bold=true},
+  { Colour="#b3684f"},
+  { Colour="#5890f8"},
+  { Colour="#b3684f"},
+  { Colour="#b3684f" }
+}

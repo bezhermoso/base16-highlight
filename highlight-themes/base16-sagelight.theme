@@ -1,0 +1,26 @@
+-- Name: Base16 Sagelight
+-- Author: Carter Veldhuizen
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Sagelight"
+
+Default = { Colour = "#383838" }
+Canvas = { Colour="#f8f8f8" }
+Number = { Colour="#ffaa61" }
+Escape = { Colour="#282828" , Italic=true}
+String = { Colour="#a0d2c8" }
+BlockComment = { Colour="#b8b8b8" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#383838" }
+LineNum      = { Colour="#b8b8b8" }
+PreProcessor      = { Colour="#d2b2a0" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#fa8480", Bold=true},
+  { Colour="#ffdc61"},
+  { Colour="#a0a7d2"},
+  { Colour="#ffdc61"},
+  { Colour="#ffdc61" }
+}

@@ -1,0 +1,26 @@
+-- Name: Base16 Tokyodark
+-- Author: Tiagovla (https://github.com/tiagovla/)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Tokyodark"
+
+Default = { Colour = "#abb2bf" }
+Canvas = { Colour="#11121d" }
+Number = { Colour="#a485dd" }
+Escape = { Colour="#555661" , Italic=true}
+String = { Colour="#d7a65f" }
+BlockComment = { Colour="#393a45" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#abb2bf" }
+LineNum      = { Colour="#393a45" }
+PreProcessor      = { Colour="#773440" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#a485dd", Bold=true},
+  { Colour="#7199ee"},
+  { Colour="#95c561"},
+  { Colour="#7199ee"},
+  { Colour="#7199ee" }
+}

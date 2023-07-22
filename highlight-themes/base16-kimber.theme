@@ -1,0 +1,26 @@
+-- Name: Base16 Kimber
+-- Author: Mishka Nguyen (https://github.com/akhsiM)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Kimber"
+
+Default = { Colour = "#dedee7" }
+Canvas = { Colour="#222222" }
+Number = { Colour="#476c88" }
+Escape = { Colour="#c3c3b4" , Italic=true}
+String = { Colour="#99c899" }
+BlockComment = { Colour="#644646" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#dedee7" }
+LineNum      = { Colour="#644646" }
+PreProcessor      = { Colour="#704f4f" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#c88c8c", Bold=true},
+  { Colour="#d8b56d"},
+  { Colour="#537c9c"},
+  { Colour="#d8b56d"},
+  { Colour="#d8b56d" }
+}

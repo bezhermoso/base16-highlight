@@ -2,7 +2,7 @@
 -- Author: Ryan Bates (http://railscasts.com)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Railscasts"
 
 Default = { Colour = "#e6e1dc" }
 Canvas = { Colour="#2b2b2b" }
@@ -13,7 +13,7 @@ BlockComment = { Colour="#5a647e" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#e6e1dc" }
-LineNum      = { Color="#5a647e" }
+LineNum      = { Colour="#5a647e" }
 PreProcessor      = { Colour="#bc9458" }
 Interpolation  = Escape
 

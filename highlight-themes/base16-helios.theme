@@ -1,0 +1,26 @@
+-- Name: Base16 Helios
+-- Author: Alex Meyer (https://github.com/reyemxela)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Helios"
+
+Default = { Colour = "#d5d5d5" }
+Canvas = { Colour="#1d2021" }
+Number = { Colour="#eb8413" }
+Escape = { Colour="#dddddd" , Italic=true}
+String = { Colour="#88b92d" }
+BlockComment = { Colour="#6f7579" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d5d5d5" }
+LineNum      = { Colour="#6f7579" }
+PreProcessor      = { Colour="#c85e0d" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#d72638", Bold=true},
+  { Colour="#f19d1a"},
+  { Colour="#1e8bac"},
+  { Colour="#f19d1a"},
+  { Colour="#f19d1a" }
+}

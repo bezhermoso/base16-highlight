@@ -1,0 +1,26 @@
+-- Name: Base16 Synth Midnight Terminal Light
+-- Author: Michaël Ball (http://github.com/michael-ball/)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Synth Midnight Terminal Light"
+
+Default = { Colour = "#28292a" }
+Canvas = { Colour="#dddfe0" }
+Number = { Colour="#ea770d" }
+Escape = { Colour="#1a1b1c" , Italic=true}
+String = { Colour="#06ea61" }
+BlockComment = { Colour="#a3a5a6" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#28292a" }
+LineNum      = { Colour="#a3a5a6" }
+PreProcessor      = { Colour="#cd6320" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#b53b50", Bold=true},
+  { Colour="#c9d364"},
+  { Colour="#03aeff"},
+  { Colour="#c9d364"},
+  { Colour="#c9d364" }
+}

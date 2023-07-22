@@ -2,25 +2,25 @@
 -- Author: Seth Wright (http://sethawright.com)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Google Light"
 
 Default = { Colour = "#373b41" }
 Canvas = { Colour="#ffffff" }
-Number = { Colour="#F96A38" }
+Number = { Colour="#f96a38" }
 Escape = { Colour="#282a2e" , Italic=true}
 String = { Colour="#198844" }
 BlockComment = { Colour="#b4b7b4" }
 StringPreProc = String
 LineComment   = BlockComment
 Operator      = { Colour="#373b41" }
-LineNum      = { Color="#b4b7b4" }
-PreProcessor      = { Colour="#3971ED" }
+LineNum      = { Colour="#b4b7b4" }
+PreProcessor      = { Colour="#3971ed" }
 Interpolation  = Escape
 
 Keywords = {
-  { Colour="#CC342B", Bold=true},
-  { Colour="#FBA922"},
-  { Colour="#3971ED"},
-  { Colour="#FBA922"},
-  { Colour="#FBA922" }
+  { Colour="#cc342b", Bold=true},
+  { Colour="#fba922"},
+  { Colour="#3971ed"},
+  { Colour="#fba922"},
+  { Colour="#fba922" }
 }

@@ -1,0 +1,26 @@
+-- Name: Base16 Catppuccin
+-- Author: Pocco81 (https://github.com/pocco81)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Catppuccin"
+
+Default = { Colour = "#d7dae0" }
+Canvas = { Colour="#1e1e28" }
+Number = { Colour="#f8bd96" }
+Escape = { Colour="#f5e0dc" , Italic=true}
+String = { Colour="#abe9b3" }
+BlockComment = { Colour="#575268" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#d7dae0" }
+LineNum      = { Colour="#575268" }
+PreProcessor      = { Colour="#f2cdcd" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f28fad", Bold=true},
+  { Colour="#fae3b0"},
+  { Colour="#96cdfb"},
+  { Colour="#fae3b0"},
+  { Colour="#fae3b0" }
+}

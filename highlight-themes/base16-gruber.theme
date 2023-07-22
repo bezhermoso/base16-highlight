@@ -1,0 +1,26 @@
+-- Name: Base16 Gruber
+-- Author: Patel, Nimai &lt;nimai.m.patel@gmail.com&gt;, colors from www.github.com/rexim/gruber-darker-theme
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Gruber"
+
+Default = { Colour = "#f4f4ff" }
+Canvas = { Colour="#181818" }
+Number = { Colour="#c73c3f" }
+Escape = { Colour="#f5f5f5" , Italic=true}
+String = { Colour="#73c936" }
+BlockComment = { Colour="#52494e" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#f4f4ff" }
+LineNum      = { Colour="#52494e" }
+PreProcessor      = { Colour="#cc8c3c" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f43841", Bold=true},
+  { Colour="#ffdd33"},
+  { Colour="#96a6c8"},
+  { Colour="#ffdd33"},
+  { Colour="#ffdd33" }
+}

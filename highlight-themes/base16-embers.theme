@@ -2,25 +2,25 @@
 -- Author: Jannik Siebert (https://github.com/janniks)
 -- Template by Bez Hermoso <bezalelhermoso@gmail.com>
 
-Description = "Base16 "
+Description = "Base16 Embers"
 
-Default = { Colour = "#A39A90" }
-Canvas = { Colour="#16130F" }
+Default = { Colour = "#a39a90" }
+Canvas = { Colour="#16130f" }
 Number = { Colour="#828257" }
-Escape = { Colour="#BEB6AE" , Italic=true}
-String = { Colour="#57826D" }
-BlockComment = { Colour="#5A5047" }
+Escape = { Colour="#beb6ae" , Italic=true}
+String = { Colour="#57826d" }
+BlockComment = { Colour="#5a5047" }
 StringPreProc = String
 LineComment   = BlockComment
-Operator      = { Colour="#A39A90" }
-LineNum      = { Color="#5A5047" }
+Operator      = { Colour="#a39a90" }
+LineNum      = { Colour="#5a5047" }
 PreProcessor      = { Colour="#825757" }
 Interpolation  = Escape
 
 Keywords = {
-  { Colour="#826D57", Bold=true},
-  { Colour="#6D8257"},
-  { Colour="#6D5782"},
-  { Colour="#6D8257"},
-  { Colour="#6D8257" }
+  { Colour="#826d57", Bold=true},
+  { Colour="#6d8257"},
+  { Colour="#6d5782"},
+  { Colour="#6d8257"},
+  { Colour="#6d8257" }
 }

@@ -1,0 +1,26 @@
+-- Name: Base16 Green Screen
+-- Author: Chris Kempson (http://chriskempson.com)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Green Screen"
+
+Default = { Colour = "#00bb00" }
+Canvas = { Colour="#001100" }
+Number = { Colour="#009900" }
+Escape = { Colour="#00dd00" , Italic=true}
+String = { Colour="#00bb00" }
+BlockComment = { Colour="#007700" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#00bb00" }
+LineNum      = { Colour="#007700" }
+PreProcessor      = { Colour="#005500" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#007700", Bold=true},
+  { Colour="#007700"},
+  { Colour="#009900"},
+  { Colour="#007700"},
+  { Colour="#007700" }
+}

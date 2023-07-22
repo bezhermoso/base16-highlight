@@ -1,0 +1,26 @@
+-- Name: Base16 Circus
+-- Author: Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Circus"
+
+Default = { Colour = "#a7a7a7" }
+Canvas = { Colour="#191919" }
+Number = { Colour="#4bb1a7" }
+Escape = { Colour="#808080" , Italic=true}
+String = { Colour="#84b97c" }
+BlockComment = { Colour="#5f5a60" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#a7a7a7" }
+LineNum      = { Colour="#5f5a60" }
+PreProcessor      = { Colour="#b888e2" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#dc657d", Bold=true},
+  { Colour="#c3ba63"},
+  { Colour="#639ee4"},
+  { Colour="#c3ba63"},
+  { Colour="#c3ba63" }
+}

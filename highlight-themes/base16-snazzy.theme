@@ -1,0 +1,26 @@
+-- Name: Base16 Snazzy
+-- Author: Chawye Hsu (https://github.com/chawyehsu) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Snazzy"
+
+Default = { Colour = "#e2e4e5" }
+Canvas = { Colour="#282a36" }
+Number = { Colour="#ff9f43" }
+Escape = { Colour="#eff0eb" , Italic=true}
+String = { Colour="#5af78e" }
+BlockComment = { Colour="#78787e" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#e2e4e5" }
+LineNum      = { Colour="#78787e" }
+PreProcessor      = { Colour="#b2643c" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff5c57", Bold=true},
+  { Colour="#f3f99d"},
+  { Colour="#57c7ff"},
+  { Colour="#f3f99d"},
+  { Colour="#f3f99d" }
+}

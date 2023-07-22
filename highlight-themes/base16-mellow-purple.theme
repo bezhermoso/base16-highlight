@@ -1,0 +1,26 @@
+-- Name: Base16 Mellow Purple
+-- Author: gidsi
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Mellow Purple"
+
+Default = { Colour = "#ffeeff" }
+Canvas = { Colour="#1e0528" }
+Number = { Colour="#aa00a3" }
+Escape = { Colour="#ffeeff" , Italic=true}
+String = { Colour="#05cb0d" }
+BlockComment = { Colour="#320f55" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#ffeeff" }
+LineNum      = { Colour="#320f55" }
+PreProcessor      = { Colour="#4d6fff" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#00d9e9", Bold=true},
+  { Colour="#955ae7"},
+  { Colour="#550068"},
+  { Colour="#955ae7"},
+  { Colour="#955ae7" }
+}

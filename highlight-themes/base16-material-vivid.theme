@@ -1,0 +1,26 @@
+-- Name: Base16 Material Vivid
+-- Author: joshyrobot
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Material Vivid"
+
+Default = { Colour = "#80868b" }
+Canvas = { Colour="#202124" }
+Number = { Colour="#ff9800" }
+Escape = { Colour="#9e9e9e" , Italic=true}
+String = { Colour="#00e676" }
+BlockComment = { Colour="#44464d" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#80868b" }
+LineNum      = { Colour="#44464d" }
+PreProcessor      = { Colour="#8d6e63" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#f44336", Bold=true},
+  { Colour="#ffeb3b"},
+  { Colour="#2196f3"},
+  { Colour="#ffeb3b"},
+  { Colour="#ffeb3b" }
+}

@@ -1,0 +1,26 @@
+-- Name: Base16 PaperColor Light
+-- Author: Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 PaperColor Light"
+
+Default = { Colour = "#444444" }
+Canvas = { Colour="#eeeeee" }
+Number = { Colour="#d70000" }
+Escape = { Colour="#005f87" , Italic=true}
+String = { Colour="#8700af" }
+BlockComment = { Colour="#5f8700" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#444444" }
+LineNum      = { Colour="#5f8700" }
+PreProcessor      = { Colour="#005f87" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#bcbcbc", Bold=true},
+  { Colour="#d70087"},
+  { Colour="#d75f00"},
+  { Colour="#d70087"},
+  { Colour="#d70087" }
+}

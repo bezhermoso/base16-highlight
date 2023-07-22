@@ -1,0 +1,26 @@
+-- Name: Base16 Primer Dark
+-- Author: Jimmy Lin
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Primer Dark"
+
+Default = { Colour = "#b1bac4" }
+Canvas = { Colour="#010409" }
+Number = { Colour="#f0883e" }
+Escape = { Colour="#c9d1d9" , Italic=true}
+String = { Colour="#3fb950" }
+BlockComment = { Colour="#484f58" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#b1bac4" }
+LineNum      = { Colour="#484f58" }
+PreProcessor      = { Colour="#bd561d" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#ff7b72", Bold=true},
+  { Colour="#d29922"},
+  { Colour="#58a6ff"},
+  { Colour="#d29922"},
+  { Colour="#d29922" }
+}

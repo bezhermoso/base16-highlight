@@ -1,0 +1,26 @@
+-- Name: Base16 Rosé Pine Dawn
+-- Author: Emilia Dunfelt &lt;sayhi@dunfelt.se&gt;
+-- Template by Bez Hermoso <bezalelhermoso@gmail.com>
+
+Description = "Base16 Rosé Pine Dawn"
+
+Default = { Colour = "#575279" }
+Canvas = { Colour="#faf4ed" }
+Number = { Colour="#b4637a" }
+Escape = { Colour="#555169" , Italic=true}
+String = { Colour="#d7827e" }
+BlockComment = { Colour="#9893a5" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = { Colour="#575279" }
+LineNum      = { Colour="#9893a5" }
+PreProcessor      = { Colour="#c5c3ce" }
+Interpolation  = Escape
+
+Keywords = {
+  { Colour="#1f1d2e", Bold=true},
+  { Colour="#ea9d34"},
+  { Colour="#56949f"},
+  { Colour="#ea9d34"},
+  { Colour="#ea9d34" }
+}
