@@ -4,7 +4,7 @@ Base16 themes for `highlight` by Andre Simons: http://www.andre-simon.de/doku/hi
 
 ### OS X
 
-Copy the desired theme from `themes/` to `$(brew --prefix highlight)/share/highlight/theme/`.
+Copy the desired theme from `highlight-themes/` to `$(brew --prefix highlight)/share/highlight/theme/`.
 
 This assumes you installed `highlight` via Homebrew. If that is not the case, see section for __Linux__.
 
